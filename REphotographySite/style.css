@@ -1,12 +1,17 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
 header{
     background-color:#333;
     padding:10px;
 }
 i {
   color: black;
-  font-size: 25px;
-}
+  font-size: 180px;
+  
 
+}
 
 
 header nav ul{
@@ -22,8 +27,10 @@ nav li{
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
-  }
+    font-size: clamp(.75rem, 2.5vw, 2rem);
+}
+
+  
   
   nav a:hover {
     text-decoration: underline;
@@ -32,7 +39,7 @@ nav a {
 .background-container {
     background-image: url('pic1.jpg');
     background-size: cover;
-    height:1000px;
+    height: 100vh;
     background-position: center;
     position: relative;
     display: flex;
@@ -71,14 +78,14 @@ nav a {
 }
 
 .about-text{
-    width:30%;
+    width:40%;
     margin-left: 10%;
 }
 
 .about img{
     width:30%;
-    margin: 20px 20px;
-  
+    margin-left: 50px;
+    border-radius: 20px;
     
 }
 
@@ -88,8 +95,10 @@ nav a {
 }
 .gallery{
     display:grid;
-    grid-template-rows:repeat(3, 1fr);
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:repeat(3, 1fr);
+ 
+    
 }
 
 .gallery img{
@@ -117,8 +126,6 @@ nav a {
 
   .benefits{
     display: grid;
-    
-    height: 600px;
     grid-template-rows: repeat(3,1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -127,18 +134,9 @@ nav a {
 
   .features h1{
     text-align: center;
-    margin: 100px 0px;
+   margin: 100px 0px;
   }
 
-
-.item-1 img{
-  width:25%;
-}
-
-.item-1 i{
-  width:25%;
-  font-size: 180px;
-}
 
 .item-1{
   display: flex;
@@ -162,6 +160,7 @@ nav a {
   padding: 50px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 .form-title {
@@ -170,7 +169,7 @@ nav a {
 }
 
 .form-group {
-  width: 35%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -188,11 +187,13 @@ textarea {
   border: none;
   outline: none;
   font-size: 1rem;
+  
 }
 
 textarea {
   resize: vertical;
-  min-height: 100px;
+  min-height: 150px;
+  
 }
 
 .submit-button {
@@ -212,4 +213,58 @@ textarea {
 
 #contact{
   margin-top: 50px;
+}
+
+@media (max-width: 375px) {
+
+  .background-container {
+    
+    width: 360px;
+    height:175px;
+    
+}
+
+.background-container h1{
+  font-size: 1.2rem;
+}
+
+  
+.about{
+  display: flex;
+  
+  
+}
+.about p{
+  font-size: .5rem;
+}
+.about img{
+  margin-top: 35px;
+  height: 200px;
+  width:  175px;
+}
+i {
+  
+  font-size: 125px;
+}
+
+  .benefits{
+   display:block;
+
+  }
+  .item-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+ 
+  
+
 }
