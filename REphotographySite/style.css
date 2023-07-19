@@ -5,6 +5,7 @@ body{
 header{
     background-color:#333;
     padding:10px;
+   
 }
 i {
   color: black;
@@ -60,9 +61,8 @@ nav a {
   
  .background-container h1 {
     color: white;
-    display: flex;
-    font-size: 3rem;
-    position: relative;
+
+    font-size: clamp(24px,2vw,36px);
     z-index: 1;
   }
   
@@ -215,32 +215,46 @@ textarea {
   margin-top: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
+
+
 
   .background-container {
-    
-    width: 360px;
-    height:175px;
-    
-}
+    background-image: url('pic1.jpg');
+    background-size: cover;
+    height:400px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.background-container h1{
-  font-size: 1.2rem;
-}
 
   
+
+.about p{
+  font-size: .75rem;
+}
+
 .about{
   display: flex;
-  
-  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.about p{
-  font-size: .5rem;
+.about-text{
+  width:90%;
+  margin-left: 0%;
 }
+
+
 .about img{
-  margin-top: 35px;
-  height: 200px;
-  width:  175px;
+  
+  height: auto;
+  width: 250px;
+  margin-left: 0px;
+  border-radius: 20px;
 }
 i {
   
@@ -265,6 +279,71 @@ i {
    
   }
  
+
+
+}
+
+@media (max-width: 375px) {
+
+  .background-container {
+    
+    width: 360px;
+    height:175px;
+    
+}
+
+.background-container h1{
+  font-size: 1.2rem;
+}
+
   
+
+.about p{
+  font-size: .75rem;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-text{
+  width:90%;
+  margin-left: 0%;
+}
+
+
+.about img{
+  
+  height: auto;
+  width: 250px;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+i {
+  
+  font-size: 125px;
+}
+
+  .benefits{
+   display:block;
+
+  }
+  .item-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+ 
+
 
 }
