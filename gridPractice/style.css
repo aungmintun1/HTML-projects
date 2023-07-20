@@ -1,0 +1,33 @@
+body {
+    display: grid;    
+    place-items: center;
+    height: 100vh;
+  
+  }
+
+  /*
+  we make the body display grid in order to put the whole section in a grid so that we can put the container as an item in the grid and then use 
+  place-items: center in order to put that one item which is the container in the center
+  */
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+
+  /* 
+  we put display:grid and then to make it 3x3 we put the columns 3 and rows 3.
+  */
+  
+  .box {
+    background: #ddd;
+    border: solid black 2px;
+    width: 100px;
+    height:100px;
+    
+  }
+/*
+this is going to make the boxes itself
+*/
