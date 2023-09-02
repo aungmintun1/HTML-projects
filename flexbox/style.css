@@ -1,52 +1,9 @@
-
-header, footer{
-    border: 2px solid black;
-    margin: 40px 0px;
-}
-
-
-
-.first{
+.box{
     display: flex;
-    height: 600px;
-    align-items: flex-start;
-
-
-
-
 }
 
-.first.box1{
-    width:50%;
+.box > div{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
 }
-.first.box2{
-    width:50%;
-    
-
-}
-
-
-    
-.first.box2 > section{
-    border: 2px solid black;
-   width: 300px;
-   height:250px;
-
-
-}
-
-.second{
-    display: flex;
-    justify-content: center;
-
-}
-
-.second > section{
-    border: 2px solid black;
-    margin: 0 30px;
-
-}
-
-
-
-
