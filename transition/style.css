@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after
+{
+    box-sizing:border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+background-color: gray;
+width: 100px;
+height: 100px;
+transition: all 0.3s;
+font-size: 2rem;
+
+}
+
+.btn:hover{
+    transform: translateY(-30px);
+    background-color: red;
+}
