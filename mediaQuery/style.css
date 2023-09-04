@@ -19,7 +19,6 @@ body {
 
 
 .header {
-  background-color: #333;
   color: white;
 }
 
@@ -29,6 +28,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+}
+
+.bg{
+  background-color: gray;
 }
 
 .logo {
@@ -61,6 +64,9 @@ body {
 
 }
 
+.about>p{
+  max-width: 60ch;
+}
 /* Responsive Design for Small Screens
 @media screen and (max-width: 768px) {
   .container {
@@ -127,6 +133,6 @@ body {
 /* 2xl */
 @media (min-width: 1536px) {
   .container {
-    max-width: 100%;
+    max-width: 1536px;
   }
 }
