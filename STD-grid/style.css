@@ -1,0 +1,35 @@
+
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(2,100px);
+  border: 2px solid black;
+  
+  place-content: center;
+
+  width:800px;
+  height: 600px;
+}
+
+.item{
+  border: 2px solid red;
+}
