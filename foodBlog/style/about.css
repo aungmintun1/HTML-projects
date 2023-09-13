@@ -3,7 +3,10 @@
     align-items: center;
     flex-direction: column;
 }
-
+.about h1{
+    font-size: 2.2rem;
+}
 .about >p{
-    max-width: 60ch;
+    max-width: 75ch;
+    font-size: 1.5rem;
 }
