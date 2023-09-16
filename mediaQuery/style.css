@@ -80,6 +80,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+ 
 
   display: flex;
   flex-direction: column;
@@ -159,6 +160,9 @@ body {
     background-position: center;
     gap: 20px;
   }
+  .section1 h1{
+    font-size: 3rem;
+  }
 
 }
 
@@ -174,8 +178,30 @@ body {
   }
 
   .section1{
-    background-position: center;
-    gap: 20px;
+    background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width:100vw;
+  }
+
+ 
+  .section1 h1{
+    font-size: 2.3rem;
+  }
+
+  .about{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .about img{
+    width: 250px;
+    height: 300px;
+  }
+  .about p {
+    font-size: .7rem;
   }
 }
 
@@ -195,6 +221,11 @@ body {
   .fas.fa-bars{
     display: block;
   }
+
+  .section1 h1{
+    font-size: 1.5rem;
+  }
+
  
 }
 
