@@ -1,3 +1,16 @@
+
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
 .section1{
 
     display: flex;
@@ -5,7 +18,7 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-    height: 100vh;
+    height: 130vh;
   }
 
   
@@ -17,15 +30,17 @@
   
   .section1>p{
     max-width: 60ch;
+    font-size: 1.5rem;
     color: aliceblue;
   }
 
   .background{
     background-color: #FFFFFF;
-    background-image:url(house.jpg);
+    background-image:url(back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
+    height: 130vh;
     
   }
 
@@ -52,6 +67,18 @@
     .container {
       max-width: 1024px;
     }
+
+    .section1 h1{
+      color:aliceblue;
+      font-size: 4rem;
+    }
+    
+    
+    .section1>p{
+      max-width: 60ch;
+      color: aliceblue;
+    }
+  
   }
   
   /* lg */
@@ -60,8 +87,18 @@
       max-width: 768px;
     }
     .background{
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
+    }
+    .section1 h1{
+      color:aliceblue;
+      font-size: 3rem;
+    }
+    
+    
+    .section1>p{
+      max-width: 60ch;
+      color: aliceblue;
     }
   }
   
@@ -71,8 +108,15 @@
       max-width: 640px;
     }
     .background{
-        background-size: contain;
+  
+        margin:0;
+        background-size: 768px 70vh;
         background-repeat: no-repeat;
+        height: 70vh;
+        
+    }
+    .section1{
+      height:70vh;
     }
 
     
@@ -83,12 +127,45 @@
     .container {
       max-width: 475px;
     }
+
+    .section1{
+      height:60vh;
+    }
+    .section1 h1{
+      color:aliceblue;
+      font-size: 2rem;
+    }
+    .background{
+      background-size: 640px 60vh;
+      background-repeat: no-repeat;
+      height:60vh;
+  }
   }
   
   /* xs */
   @media (max-width: 475px) {
     .container {
       width: 100%;
+    }
+    .section1{
+      height:55vh;
+      gap: 10px;
+    }
+    .background{
+      width:100vw;
+      height:55vh;
+      background-size: cover;
+      background-position: center;
+      border: solid blue 2px;
+      
+    }
+    .section1 h1{
+      color:aliceblue;
+      font-size: 1.5rem;
+    }
+    .section1>p{
+      max-width: 35ch;
+      color: aliceblue;
     }
   }
   
