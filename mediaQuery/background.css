@@ -37,10 +37,9 @@ line-height: 1.5;
   .background{
     background-color: #FFFFFF;
     background-image:url(back.jpg);
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 130vh;
+    height: 100vh;
     
   }
 
@@ -68,6 +67,12 @@ line-height: 1.5;
       max-width: 1024px;
     }
 
+    .background{
+      background-size: 1280px 100vh;
+      background-repeat: no-repeat;
+      height: 100vh;
+  }
+
     .section1 h1{
       color:aliceblue;
       font-size: 4rem;
@@ -87,8 +92,12 @@ line-height: 1.5;
       max-width: 768px;
     }
     .background{
-        background-size: cover;
+        background-size: 1024px 100vh;
         background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .section1{
+      height:100vh;
     }
     .section1 h1{
       color:aliceblue;
