@@ -1,0 +1,13 @@
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history h1{
+    font-size: 2.2rem;
+}
+.history p{
+    max-width: 75ch;
+    font-size: 1.5rem;
+}
