@@ -13,6 +13,8 @@ line-height: 1.5;
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    margin-top: 50px;
 }
 .about h1{
     font-size: 2.2rem;
@@ -66,12 +68,31 @@ line-height: 1.5;
     .container {
       max-width: 475px;
     }
+
+    .about h1{
+      font-size: 1.5rem;
+    }
+
+    .about p {
+
+      max-width: 75ch;
+      font-size: 1rem;
+    }
   }
   
   /* xs */
   @media (max-width: 475px) {
     .container {
       width: 100%;
+    }
+
+    .about h1{
+      font-size: 1.1rem;
+    }
+
+    .about p {
+      max-width: 60ch;
+      font-size: .9rem;
     }
   }
   
