@@ -1,0 +1,27 @@
+
+.item-1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-text{
+    width: 40%;
+    margin-left: 60px;
+}
+
+.features > h1{
+    text-align: center;
+  }
+
+  .benefits{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  i {
+    color: black;
+    font-size: 180px;
+  }

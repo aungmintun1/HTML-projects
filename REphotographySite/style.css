@@ -10,8 +10,6 @@ header{
 i {
   color: black;
   font-size: 180px;
-  
-
 }
 
 
@@ -142,12 +140,9 @@ nav a {
   display: flex;
   justify-content: center;
   text-align: center;
-  
-
 }
 
 .item-text{
- 
   width: 40%;
   margin-left: 60px;
 }

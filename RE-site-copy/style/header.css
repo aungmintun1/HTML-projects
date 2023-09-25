@@ -6,7 +6,8 @@ header{
     background-color: gray;
 }
 
- ul{
+ ul
+ {
     list-style: none;
     color: white;
     display: flex;
@@ -22,11 +23,10 @@ header{
         font-size: 2rem;
     }
     
-      
-      
-      nav a:hover {
-        text-decoration: underline;
-      }
+   nav a:hover 
+   {
+   text-decoration: underline;
+   }
     
       .container {
         max-width: 1536px;
@@ -56,6 +56,16 @@ header{
         .container {
           max-width: 768px;
         }
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 1rem;
+      }
+
+      header{
+          padding:5px;
+          background-color: gray;
+      }
       }
       
       /* md */
@@ -63,6 +73,14 @@ header{
         .container {
           max-width: 640px;
         }
+
+           
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          font-size: .8rem;
+      }
+
       }
       
       /* sm */
@@ -70,6 +88,9 @@ header{
         .container {
           max-width: 475px;
         }
+      
+
+      
       }
       
       /* xs */
