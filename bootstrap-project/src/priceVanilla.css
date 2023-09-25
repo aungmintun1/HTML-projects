@@ -1,0 +1,132 @@
+
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.intro p{
+    font-size: 1.5rem;
+    width:50ch;
+   
+    
+}
+
+.price{
+    display: flex;
+    gap:20px;
+   justify-content: center;
+}
+
+.box{
+    width:350px;
+    height:250px;
+    border: solid gray 2px;
+    border-radius: 15px;
+}
+
+.boxContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title{
+    width:100%;
+    height:50px;
+    border-bottom: solid gray 2px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+}
+
+.title h1{
+   font-size: 2rem;
+}
+.enterpriseTitle{
+    width:100%;
+    height:50px;
+  
+    text-align: center;
+    background-color: rgb(43, 188, 236);
+    border-radius: 12px 12px 0 0;
+  
+   
+}
+.enterpriseTitle h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.buttonSection{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.freeBtn{
+    width: 95%;
+    height: 45px;
+    border: solid blue 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    color:blue;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.freeBtn:hover {
+    background-color: blue; /* Change the background to blue on hover */
+    color: white; /* Change text color to white (or another color) for contrast */
+}
+
+.proBtn{
+
+    width: 95%;
+    height: 45px;
+    background-color: rgb(43, 188, 236);
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+
+}
+
+.proBtn:hover{
+    background-color:  rgb(19, 161, 208);
+}
+
+.enterpriseBtn{
+
+    width: 95%;
+    height: 45px;
+    background-color: rgb(43, 188, 236);
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+
+}
+
+.enterpriseBtn:hover{
+    background-color: rgb(19, 161, 208);
+}
