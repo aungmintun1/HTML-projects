@@ -35,7 +35,12 @@ list-style: none;
 
 .fade-in{
     opacity: 0;
+    /* this line makes the images invisible by defualt */
+
     animation: fadeIn 1s ease-in-out forwards;
+    /* this adds the animation to the class and the duration of the transitiion is 1 second.
+     forwards makes the animation final look stay on  */
+
     
 }
 
@@ -47,3 +52,7 @@ list-style: none;
         opacity: 1;
     }
 }
+
+/* this is the name of the animation fadeIn created using keyframes
+it goes from 0 opacity to 1.
+basically it goes from invisible to fully visible  */
