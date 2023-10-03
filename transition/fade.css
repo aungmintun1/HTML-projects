@@ -1,0 +1,49 @@
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > img{
+    height: 400px;
+}
+
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
