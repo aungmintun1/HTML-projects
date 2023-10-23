@@ -1,0 +1,36 @@
+.section1{
+    text-align: center;
+    margin:4rem;
+}
+.section1 h1{
+    font-size: 2.5rem;
+}
+.section1 p{
+    font-size: 1.2rem;
+}
+
+.section1Btn{
+    margin-top:.8rem;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+
+.section1Btn:hover{
+    animation: color .6s forwards;
+  }
+  
+  
+  @keyframes color {
+      0%{
+          background-color:black;
+          color:white;
+       
+      }
+  
+      100%{
+          background-color: white;
+          color:black;
+      }
+  }
