@@ -22,12 +22,16 @@ body{
 background-color: gray;
 width: 100px;
 height: 100px;
-transition: all 0.3s;
 font-size: 2rem;
 
+transition: all 0.3s;
+/* This is adds a transition property to the button class which gives the TIME to transition to the 
+properties that are in the hover class */
 }
 
 .btn:hover{
     transform: translateY(-30px);
     background-color: red;
+
+    /* when hovered upon, the button will go up 30px, and change to the color red */
 }

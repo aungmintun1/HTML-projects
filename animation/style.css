@@ -1,0 +1,99 @@
+
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: calc(1em+0.5rem)
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+font-family: 'Inter' , sans-serif;
+}
+
+input, button, textarea, select{
+font: inherit;
+}
+
+
+.btn{
+    margin:45vh auto;
+    padding: 2rem;
+    background-color: green;
+    display: block;
+
+    animation: jump 2s ease-in-out none;
+
+    /* usually you will deal with
+    animation: name, duration, timing function, fill-mode */
+
+    /* animation: name duration timing-function delay iteration-count(#of times) direction(forward or reverse?) fill-mode(before and after animation) play-state; */
+
+}
+
+@keyframes jump {
+    
+    0%{
+       opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+
+/* 1. add animation property to element
+   2. make keyframe animation and add a name to it
+   3. create animation step by step from and to, or 0% to 100%
+   4. fill in the brackets with the properties
+*/
+
+
+/* eases
+
+ease-in: slow to fast
+ease-out: fast to slow
+ease in out: slow,fast in middle, slow
+
+*/
+
+/*
+
+animation-fill mode:
+none: by default will start animation to end, and after it is done it will revert back to original style
+forwards: after animation ends, the element stays in the animation class
+backwards: used to style the animation before it starts when there is a time delay added on. during the delay it will take on properties in 0%
+both: styles element from 0% class, and keeps styles from 100% after animation is over. it is combination of forwards and backwards.
+
+iteration count: how many times animation runs
+you can set infinite, for example a element that is forever spinning 360 degrees
+
+direction: the sequence of the animation.
+default (normal): from 0% to 100%
+reverse: 100% to 0%;
+alternate: it will start at top go to bottom continously, lets say we have 5 parts. 0% - 25%, 100% - 75%,  50% - 75%
+
+play-state: its either running or paused
+for example an infinite rotating element, when hovered you can add the paused property to stop animation
+*/
