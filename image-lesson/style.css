@@ -1,0 +1,49 @@
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    }
+    
+
+.background{
+    background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("kitchen.jpg");
+    /* the way linear gradient works is the first part covers top half and the second bottom half
+       you can adjust the amount of the transparency with the last number in rgba
+    */
+
+    background-size: 100vw 100vh;
+    /* this adjusts the size of the background image, but not the div container: */
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    /* this gives the height to the actual div container not the background image */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.h1{
+    color:white;
+    font-size: 4rem;
+}
+/* .h1{
+    width: 22ch;
+    margin:0 auto;
+    you can not use margin trick on a text unless you specifify the width of the charcters in the text.
+    by default a h1 element is block and has no space for margin in width.
+} */
+ 
+
+
+/* we can use a div in order to be a container and then put whatever we want in it */
