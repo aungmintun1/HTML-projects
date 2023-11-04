@@ -3,21 +3,36 @@ import './style.css';
 import { useState } from 'react';
 function App() {
 
-  const [click, setClick] = useState('hidden');
+  const [click, setClick] = useState('default');
 
   const handleClick = () => {
 
-    if(click){
-      setClick(false);
+    if(click==='visible'){
+      setClick('fadeOut')
 
       setTimeout(() => {
-        setClick('hidden');
-      }, 1000);
-    }
+            setClick('hidden');
+          }, 1000);
+        }
 
-    else{
-      setClick(true);
-    }
+    
+
+   else{
+    setClick('visible')
+   }
+
+    
+    // if(click){
+    //   setClick('fade');
+
+    //   setTimeout(() => {
+    //     setClick('hidden');
+    //   }, 1000);
+    // }
+
+    // else{
+    //   setClick('visible');
+    // }
 
   }
 
@@ -35,7 +50,7 @@ function App() {
     </header>
 
 
-    <div className={`${click ? 'menu' : 'clear menu'} ${click === 'hidden' && 'hidden'}`}>
+    <div className={` ${click === 'default' && 'hidden'} ${click ==='visible' && 'menu'} ${click === 'fadeOut' && 'menu clear'} ${click === 'hidden' && 'hidden'}` }>
       
         <nav>
             <ul class="menulist">
@@ -47,7 +62,7 @@ function App() {
 
     </div>
 
-    <h1>wahst up</h1>
+    <h1>{click}</h1>
   </>
   );
 }
