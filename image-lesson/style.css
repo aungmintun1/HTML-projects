@@ -47,3 +47,20 @@
 
 
 /* we can use a div in order to be a container and then put whatever we want in it */
+
+@media (max-width: 321px) {
+
+    .background{
+        background-image:url("house315vw.jpg");
+        background-size: 100vw 55vh;
+        height: 55vh;
+
+        /* must remember to adjust height of container along with background image */
+
+        /* note that you can resize images in order to fit instead of using css to resize */
+    }
+    .h1{
+        font-size: 1.5rem;
+    }
+    
+}
