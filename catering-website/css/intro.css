@@ -1,0 +1,68 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 2rem;
+    gap: 2rem;
+
+}
+
+.introText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border-radius: 10px;
+    width:75%;
+    height: 150px;
+
+}
+
+.introText > h1{
+
+    font-size: 2.2rem;
+}
+
+.introGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 635px);
+    grid-template-rows: repeat(2, 400px);
+}
+
+.introGrid > div{
+    border: solid red 2px;
+}
+
+.textGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageGrid1{
+    background-image: url("/catering-website/images/catering1.jpg");
+    background-size: cover;
+}
+
+.imageGrid2{
+    background-image: url("/catering-website/images/catering2.jpg");
+    background-size: cover;
+}
+
+.introText2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 10px;
+    width:75%;
+    height: 150px;
+}
+
+.introText2 > p{
+    width: 85ch;
+}
