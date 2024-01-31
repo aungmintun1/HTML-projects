@@ -1,0 +1,31 @@
+.shirt{
+    width: 70%;
+    margin: 6rem auto;
+}
+
+.oneShirt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details{
+    
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    /* border: solid black 2px; */
+    
+    height: 800px;
+    width: 700px;
+}
+
+.addBtn{
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border: solid black 2px;
+}
