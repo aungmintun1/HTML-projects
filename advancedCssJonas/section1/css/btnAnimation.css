@@ -1,0 +1,73 @@
+.btn:link,
+.btn:visited {
+text-decoration: none;
+padding: 15px 40px;
+display: inline-block;
+border-radius: 100px;
+transition: all .2s;
+animation: slide-bottom 2s;
+position: relative;
+/* original btn element measurements*/
+/* after button is positioned relative to this button */
+}
+.btn-white {
+    background-color: #fff;
+    color: #777;
+    /* button colors modifier */
+}
+
+.btn:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active {
+/* when clicking on btn */
+transform: translateY(-1px);
+box-shadow: 0 5px 10px □rgba(0,0,0,.2); 
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* this button is directly under the original button element */
+    /* position absolute to position it relative to button parent element */
+
+    transition: all 0.4s;
+
+}
+
+.btn-white::after {
+    background-color: #fff;
+} 
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+     
+   /* when hovering the after: button scales up and then disappears */
+}
+
+@keyframes slide-bottom {
+     
+    0%{
+        transform: translateY(200px);
+     }
+ 
+ 
+     80%{
+        transform: translateY(-20px);
+     }
+
+     100%{
+        transform: translateY(0px);
+     }
+ 
+}

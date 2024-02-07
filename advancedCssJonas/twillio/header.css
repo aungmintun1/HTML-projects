@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 2rem;
+   
+}
+
+.hotelIcon{
+    width:4rem;
+    height:4rem;
+ }
+
+ .header>input{
+   flex: 0 0 450px;
+    height: 2rem;
+    border-radius: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: rgb(239, 239, 239);
+    padding: 0 10px; 
+}
+
+.iconContainer{
+    display: flex;
+    gap:3rem;
+    margin-right:1rem;
+} 
+
+.messageIcon, .saveIcon{
+    width:2.5rem;
+    height:2.5rem;
+}
+
+.profilePicture{
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff; 
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.1);
+}

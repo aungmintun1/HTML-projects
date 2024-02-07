@@ -1,0 +1,49 @@
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: calc(1em+0.5rem)
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+font-family: 'Inter', sans-serif;
+background-image: linear-gradient(to right bottom, rgb(228, 13, 13), rgb(116, 8, 8));
+background-position: cover;
+background-repeat: none;
+min-height: 100vh;
+}
+
+input, button, textarea, select{
+border: none;
+background: none;
+cursor: pointer;
+font-family: inherit;
+}
+
+.page{
+    max-width: 80rem;
+    background-color: rgb(250, 249, 249);
+    margin: 5rem auto;
+    padding-top:.5rem;
+    
+}
