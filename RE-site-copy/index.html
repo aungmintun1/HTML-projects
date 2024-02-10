@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/intro.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/btnAnimation.css">
+
     <link rel="stylesheet" href="style/portfolio.css">
     <link rel="stylesheet" href="style/feature.css">
     <link rel="stylesheet" href="style/base.css">
@@ -18,8 +21,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -52,26 +56,24 @@
 
 <section id="aboutme" class="about container">
     
-    <img src="aungmintun.jpg" alt="" class="aboutPicture">
+    <img src="profilePicture.jpg" alt="aboutPicture" class="aboutPicture">
 
     <div class="about-container">
  
             <div class="about-text"> 
-                <h1>About Me</h1>
-                <p> 
+                <p class="aboutHeader">About Me</p>
+                <p class="aboutParagraph"> 
                     Hello, I'm Aung Min, a real estate photographer from Queens, NYC.
                     I specialize in taking photos that highlight the best parts of each property and help potential buyers see themselves living there.
                     I've photographed all kinds of homes, from small apartments to big townhouses. I know real estate moves fast, 
                     so I'm always ready to work around your schedule and get you the photos quickly.
 
                 </p>
-
-                
             </div>
            
             <div class="about-text">
-                    <h1>Why Professional Pictures?</h1>
-                    <p> 
+                    <p class="aboutHeader">Why Professional Pictures?</p>
+                    <p class="aboutParagraph"> 
                         When you invest in professional photo editing services for your images, you're taking your visual presentation to the next level.
                         This can make the difference between a potential buyer simply scrolling past or stopping to take a closer look. 
                         
@@ -80,6 +82,90 @@
     </div>
 
 </section>
+
+<section class="card_section">
+    <div class="cardContainer">
+        <div class="box">
+         <div class="card frontSide">
+
+           <img class="frontPicture" src="livingRoom.jpg" alt="livingroom">
+           <p class="package">Photography</p>
+
+           <div class="list">
+           <p>HDR photography</p>
+           <hr>
+           <p>Consistent quality</p>
+           <hr>
+           <p>up to 40 images</p>
+           <hr>
+           <p>photoshop & editing included</p>
+           <hr>
+           <p>1 day delivery</p>
+           </div>
+           
+         </div>
+         <div class="card backSide">
+            <p class="backHeader">ONLY</p>
+            <p class="price">$200</p>
+            <a href="#" class="btn btn-white">Book Now</a>
+         </div>
+        </div>
+
+        <div class="box">
+            <div class="card frontSide">
+                <img class="frontPicture" src="drone.jpg" alt="drone">
+                <p class="package">Drone</p>
+     
+                <div class="list">
+                <p>aerial photography</p>
+                <hr>
+                <p>drone licensed</p>
+                <hr>
+                <p>up to 6 images</p>
+                <hr>
+                <p>photo editing included</p>
+                <hr>
+                <p>1 day delivery</p>
+                </div>
+                
+            </div>
+            <div class="card backSide">
+                <p class="backHeader">ONLY</p>
+                <p class="price">$75</p>
+                <a href="#" class="btn btn-white">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="card frontSide">
+                <img class="tourPicture" src="tour.jpg" alt="tour">
+                <p class="package">3D Tour</p>
+     
+                <div class="list">
+                <p> 3D matterport</p>
+                <hr>
+                <p> floor plan included</p>
+                <hr>
+                <p> virtual open house</p>
+                <hr>
+                <p> 3D pictures</p>
+                <hr>
+                <p> viewable everywhere from anywhere</p>
+                </div>
+            </div>
+
+            <div class="card backSide">
+                <p class="backHeader">ONLY</p>
+                <p class="price">$150</p>
+                <a href="#" class="btn btn-white">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+
 
 <section id="portfolio" class="portfolio">
     <h1> My latest work</h1>
@@ -188,7 +274,7 @@
         </div>
     </section>
 
-    <section id="contact" class="container" >
+    <section id="contact" class="contactSection container" >
 
         <form class="contact-form">
             <h2 class="form-title">Contact Us</h2>

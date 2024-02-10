@@ -1,0 +1,156 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* code */
+
+.card_section{
+    width: 90%;
+    margin: 6rem auto;
+ 
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    
+   
+    /* section */
+}
+
+
+.box{
+    -moz-perspective: 150rem;
+    perspective: 150rem;
+    position: relative;
+    width:350px;
+    height: 500px;  
+    /* container of each card */
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    text-align: center;
+    
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
+    /* properties of each side */
+}
+
+.frontSide{
+background-color: white;
+/* properties of front side  */
+}
+
+.backSide{
+    transform: rotateY(180deg);
+    background-color: white;
+    /* properties of back side  */
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    gap:1rem;
+}
+
+.box:hover .frontSide{
+transform: rotateY(180deg);
+} 
+
+.box:hover .backSide{
+transform:rotateY(0);
+}
+/* front rotates from 0 to 180, back rotates from 180 to 0 */
+/* make sure hover effect is on the container of the card element */
+
+/* front card elements */
+
+.frontPicture{
+    height:16rem;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+.tourPicture{
+    height:16rem;
+    width:100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.package{
+    color:white;
+    font-size: 2.5rem;
+    position: absolute;
+    top:10rem;
+    right:1rem;
+    background-color:rgba(0, 0, 0, 0.7); 
+    padding:.5rem;
+}
+
+.list{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:.75rem;
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width:70%;
+    background-color: #ccc; /* or any color you prefer */
+  }
+
+/* back card elements */
+
+.backHeader{
+    padding-top: 7rem;
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 4rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.whiteBtn{
+    margin-top: 5rem;
+    padding:1.25rem 3rem;
+    color: white;
+    background-color: #ccc;
+    border-radius:100rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
