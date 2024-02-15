@@ -1,0 +1,38 @@
+.header{
+    margin:1rem auto;
+    padding: 1.5rem;
+    width:80%;
+    background-color: gray;
+    border-radius: 100px;
+    /* position: sticky; */
+    top: 0;
+  z-index: 1000;
+}
+
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap:3rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu{
+    background-color: black;
+    padding: 3rem;
+}
+
+.menulist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap:2rem;
+}
