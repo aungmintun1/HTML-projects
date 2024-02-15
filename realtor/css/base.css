@@ -1,0 +1,81 @@
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: calc(1em+0.5rem)
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+ ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  html{
+    scroll-behavior:smooth;
+   
+  }
+  
+  input, button, textarea, select{
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  } 
+
+.container{
+    max-width: 1536px;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid red 2px;
+ }
+
+
+.mainContainer{
+  display: flex;
+  /* flex-direction: column; */
+}
+.sidebar{
+  flex:0 0 5%;
+  background-color:#c69963;
+
+  /* the width is 5% and the maincontent is 95%,
+  the height is determined by the amount of elements in the main div that fill it up
+  I tried doing a border, and obviously a border doesnt not add to the height, only
+  elements with a fixed height do. */
+}
+.main{
+flex:1;
+}
+
+
+
+@media (max-width: 1024px) {
+  .mainContainer{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    flex:none;
+    height: 4rem;
+    background-color:#c69963;
+
+    /* turn the flex off, a media query adds to a class or overides, 
+    it is not its own independent class */
+  }
+
+}
+

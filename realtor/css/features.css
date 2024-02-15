@@ -1,0 +1,110 @@
+.features{
+ display: grid;
+ grid-template-columns: repeat(3,25rem);
+ grid-template-rows: repeat(2, 12rem);
+ place-content: center;
+
+padding:6rem 2rem;
+gap:2rem;
+}
+
+.featureBox{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:1rem;
+
+}
+
+.featureIcon{
+width:7rem;
+height:3rem;
+fill: #c69963;
+/* changes svg color; 
+you can also use stroke*/
+margin-top:1rem;
+
+}
+
+.featureText{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+    height:100%;
+  
+}
+
+.featureTitle{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.featureParagraph{
+    max-width: 40ch;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+
+    .features{
+        grid-template-columns: repeat(2,25rem);
+        grid-template-rows: repeat(3, 12rem);
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .features{
+        grid-template-columns: repeat(2,18rem);
+        grid-template-rows: repeat(3, 12rem);
+        height:100%;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+    .features{
+        display:flex;
+        flex-direction: column;
+      
+    }
+
+  
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }
+  

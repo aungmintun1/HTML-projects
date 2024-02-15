@@ -1,0 +1,28 @@
+.footer{
+    background-color: #101d2c;;
+    padding: 8rem;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    gap:4rem;
+    justify-content: center;
+}
+.nav li a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.footer p {
+      text-decoration: none;
+    color:#fff;
+    font-size: 1.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top:5rem;
+}
