@@ -1,0 +1,34 @@
+.portfolio-background{
+    background-color: #e1e8fb;
+}
+.portfolio{
+    padding:5rem;
+    display: grid;
+    grid-template-columns: repeat(2,35rem);
+    grid-template-rows: repeat(2,32rem);
+    place-content: center;
+    gap:3rem;
+}
+
+.portfolio-box{
+  background-color: white;
+  border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    transition: all 0.3s;
+    gap:1rem;
+}
+.portfolio-picture{
+    height:25rem;
+    border-radius: 16px;
+    transition: all 0.3s;
+}
+
+.portfolio-box:hover{
+    transform: scale(1.05);
+}
+.portfolio-box:hover .portfolio-picture{
+    transform: scale(1.05);
+}

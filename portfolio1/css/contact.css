@@ -1,0 +1,72 @@
+.contactBackground{
+    background-color: #2662fa;
+}
+.contact{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.contact-title{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.contact-line{
+    height:4px;
+    content: "";
+    display: block;
+    background-color: rgb(171, 171, 171);
+    width:8rem;
+
+}
+
+.contact-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.contact-header{
+    font-size:2.5rem;
+    width:30ch;
+    text-align: center;
+}
+.contact-btn-container{
+    display: flex;
+    gap:2rem;
+   
+}
+
+.emailBtn{
+    padding:1rem 3rem;
+    font-size:1.5rem;
+    font-weight: 700;
+    background-color: var(--orange);
+    color:white;
+    border-radius: 8px;
+    transition: all 0.4s;
+}
+.emailBtn:hover{
+    background-color: black;
+    border:solid white 2px;
+    transform: translateY(4px);
+}
+.linkinBtn{
+    padding:1rem 3rem;
+    background-color: #9bb3f1;
+    color:white;
+    font-size:1.5rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border:solid white 2px;
+    transition: all 0.4s;
+}
+.linkinBtn:hover{
+    background-color: black;
+    transform: translateY(4px);
+}
