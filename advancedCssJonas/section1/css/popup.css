@@ -1,0 +1,145 @@
+.popup{
+    width:100%;
+    height:100vh;
+    border:solid black 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup:target .popup__content{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__content{
+    background-color: white;
+    padding:2rem;
+    border-radius: 16px;
+    width:60%;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(.2);
+    transition: all .4s .2s;
+    
+    display: flex;
+    gap:2rem;
+}
+.popup__picture_container{
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__picture_container img{
+    height:15rem;
+}
+
+.popup__text_container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.popup__text_container h2{
+    font-size:1.2rem;
+}
+
+.popup__text_container p{
+    width:60ch;
+}
+
+.popup__button{
+    padding:1rem 2rem;
+    background-color: #55c57a;
+    color:white;
+    font-size: 1.2rem;
+    border-radius: 16px;
+   align-self: center;
+}
+
+.popout-button {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: transparent;
+
+    position: absolute;
+    top:2%;
+    right:1%;
+  }
+  
+  .popout-button::before,
+  .popout-button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Thickness of the lines */
+    background-color: black;
+    transition: all 0.3s ease;
+  }
+  
+  .popout-button::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .popout-button::after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .popout-button:hover::before,
+  .popout-button:hover::after {
+    background-color: #55c57a;
+  }
+
+  
+
+/* 
+1.setting the id of popup to #popup and then in our <a> tag 
+for our <a> booknow button in the header we reference #popup in the href
+
+2.now we can use .popup:target in order to add properties that will activate our visibility
+.popup{
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+3. animation, when we click popup:target, we can also add properties to another class
+    in this case, .popup__content. ofc add transition to make it more smooth.
+    our content starts at a small scale and then to its regular size.
+    
+
+.popup:target .popup__content{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__content{
+    transform: translate(-50%, -50%) scale(.2);
+    transition: all .4s .2s;
+    
+
+
+*/

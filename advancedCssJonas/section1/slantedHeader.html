@@ -6,19 +6,71 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/slanted.css">
     <link rel="stylesheet" href="css/btnAnimation.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/popup.css">
 
 </head>
 <body>
 
-    <header class="header">
+    <div class="navigation">
+
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">About Natours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Your benfits</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>
+                </ul>
+        </nav>
+    </div>
+
+    <header class="header" id="header">
         <div class="headerContainer">
         <h1 class="heading-primary">
             <span class="heading-primary-main"> Real Estate Photography</span>
             <span class="heading-primary-sub"> for all your photography needs</span>
 
-            <a href="#" class="btn btn-white">Book Now</a>
+            <a href="#popup" class="btn btn-white">Book Now</a>
         </h1>
         </div>
     </header>
+
+    
+    <div class="popup" id="popup">
+        <div class="popup__content">
+          <div class="popup__picture_container">
+            <img src="./nat-8.jpg" alt="">
+            <img src="./nat-9.jpg" alt="">
+          </div>
+          <div class="popup__text_container">
+            <a href="#header" class="popout-button"></a>
+            <h1>Start Booking Now</h1>
+            <h2>IMPORTANT – PLEASE READ THESE TERMS BEFORE BOOKING</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum
+              neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+               Malesuada pellentesque elit eget gravida cum sociis natoque penati
+            </p>
+            <p>
+            bus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu facilisis
+             sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor 
+             condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta.
+            </p>
+            <button class="popup__button">Book Now</button>
+          </div>
+        </div>
+    </div>
+
+    
 </body>
 </html>
