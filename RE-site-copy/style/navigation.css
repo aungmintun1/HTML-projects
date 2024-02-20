@@ -1,0 +1,291 @@
+.navigation__checkbox{
+    display: none;
+}
+
+.navigation__button{
+    background-color: black;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba(#000, .1);
+    text-align: center;
+    cursor: pointer;
+
+    position: fixed;
+    top: 3rem;
+    right: 6rem;
+
+}
+
+.navigation__background{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-image: radial-gradient(#999999,#111010);
+    z-index: 1000;
+    transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1); 
+    /* this is what makes the pop out effect animation */
+    
+    position: fixed;
+    top: 3rem;
+    right: 6rem;
+}
+
+.navigation__nav{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -20rem;
+    z-index: 1500;
+
+    opacity: 1;
+    width: 0;
+    transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navigation__list{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        list-style: none;
+        text-align: center;
+        width: 100%;
+}
+
+.navigation__item{
+    margin: 1rem;
+}
+
+.navigation__link:link, 
+.navigation__link:visited{
+display: inline-block;
+font-size: 3rem;
+font-weight: 300;
+padding: 1rem 2rem;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+background-image: linear-gradient(120deg,transparent 50%, #fff 50%);
+background-size: 220%;
+transition: all .4s;
+}
+
+.navigation__link:hover,
+.navigation__link:active {
+    background-position: 100%;
+    color: black;
+    transform: translateX(1rem);
+   
+}
+
+.navigation__checkbox:checked ~ .navigation__background {
+
+   transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
+
+
+.navigation__icon{
+    position: relative;
+    margin-top: 3rem;
+}
+
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+    width: 3rem;
+    height: 2px;
+    
+    background-color:white;
+    display: inline-block;
+ 
+}
+
+.navigation__icon::before,
+.navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s;
+}
+
+.navigation__icon::before { top: -.8rem; }
+.navigation__icon::after { top: .8rem; }
+
+.navigation__icon::before,
+.navigation__icon::after{
+    background-color: white;
+    display: inline-block;
+    width: 3rem;
+    height: 2px;
+}
+
+
+.navigation__button:hover .navigation__icon::before {
+    top: -1rem;
+}
+
+.navigation__button:hover .navigatio.navigation__icon::after {
+    top: 1rem;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+    background-color: transparent;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+  /* xs */
+  @media (max-width: 475px) {
+ 
+    .navigation__link:link, 
+    .navigation__link:visited{
+        font-size: 1.5rem;
+  }
+
+  .navigation__button{
+    top: 2rem;
+    right: 1rem;
+
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .navigation__icon{
+    margin-top: 2.5rem;
+}
+
+.navigation__background{
+    top: 2rem;
+    right: 1rem;
+
+    height: 5rem;
+    width: 5rem;
+
+}
+  
+  
+
+  }
+
+/* 
+1.positioning elements
+navigation_button is the white circle, position fixed to the viewport, it is like pos:sticky but with a selected position
+
+navigation_background is the green circle directly behind the button, but will take up the whole viewport when clicked on. 
+it is also pos fixed to prevent scrolling
+when expanded it takes up the whole viewport and is like a section
+
+navigation_nav is the navigation tag that contains the navigation_list which is centered through pos absolute
+
+*/
+
+/* 2. checkbox explained
+
+.navigation__checkbox:checked ~ .navigation__background {
+    transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+    opacity: 1;
+    width: 100%;
+}
+
+basically, if checked the class activates, also note that the checkbox is display:none
+ */
+
+ /* 3.navigation_link hover effect
+
+ using the background size property, we are like moving the background in the container out of sight in the container 220%
+ when hovered, we do background-position: 100%; for the color to be fully in the link container.
+
+.navigation__link:link, 
+.navigation__link:visited{
+background-image: linear-gradient(120deg, transparent 50%, #fff 50%);
+// the background of the link has a white background that is half transparent and half white
+when it is at background size:100% it takes up half the 
+background-size: 220%;
+transition: all .4s;
+}
+
+.navigation__link:hover,
+.navigation__link:active {
+    background-position: 100%;
+    color: #55c57a;
+    transform: translateX(1rem); moves the link to the right a bit
+}
+ 
+ 
+ */
+
+ /* 
+ making the hamburger and X icon
+
+ .navigation__icon{
+    position: relative;
+    margin-top: 3rem;
+}
+
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+    width: 3rem;
+    height: 2px;
+    
+    background-color:#333;
+    display: inline-block;
+
+
+ 
+}
+
+.navigation__icon::before,
+.navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s;
+}
+
+.navigation__icon::before { top: -.8rem; }
+.navigation__icon::after { top: .8rem; }
+
+.navigation__icon::before,
+.navigation__icon::after{
+    background-color: #333;
+    display: inline-block;
+    width: 3rem;
+    height: 2px;
+}
+
+ 
+ 
+ */
+
+
+ /* checkout background
+ 
+ .navigation__checkbox:checked ~ .navigation__background {
+
+    border-radius: 0%;
+    height:100%;
+    width: 30%;
+    top: 0;
+    right: 0;
+}
+*/
