@@ -1,23 +1,24 @@
 
-
 .aboutPicture{
     border-radius: 15px;
-    height:600px;
+    width:30rem;
+    height:45rem;
 }
 
 .about{
     display: flex;
     justify-content: space-around;
-    margin: 20px 0px;
-}
-.about-text> h1{
-    color: black;
-    font-size: 2rem;
+    margin: 1rem;
 }
 
-.about-text>p{
+.aboutHeader{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.aboutParagraph{
     color: black;
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 75ch;
 }
 
@@ -25,6 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding:1rem;
 }
 
 .container {
@@ -53,7 +55,6 @@
 .about-text>p{
     color: black;
     font-size: 1rem;
-    max-width: 60ch;
 }
 
   }
@@ -65,7 +66,12 @@
     }
     .aboutPicture{
         border-radius: 15px;
-        height:500px;
+        width: 25rem;
+        height:35rem;
+    }
+
+    .about{
+        gap:2rem;
     }
   }
   
@@ -73,22 +79,7 @@
   @media (max-width: 1024px) {
     .container {
       max-width: 768px;
-    }
-
-    .about-text> h1{
-        color: black;
-        font-size: 1.2rem;
-    }
-    
-    .about-text>p{
-        color: black;
-        font-size: .8rem;
-        max-width: 50ch;
-    }
-    .aboutPicture{
-        border-radius: 15px;
-        height:400px;
-    }
+    }  
 
   }
   
@@ -97,20 +88,16 @@
     .container {
       max-width: 640px;
     }
-    .about-text> h1{
-        color: black;
-        font-size: 1rem;
+
+    .about{
+        flex-direction: column;
+        align-items: center;
     }
     
-    .about-text>p{
-        color: black;
-        font-size: .7rem;
-        max-width: 50ch;
+    .about-container{
+        gap:2rem;
     }
-    .aboutPicture{
-        border-radius: 15px;
-        height:300px;
-    }
+  
 
   }
   
@@ -120,24 +107,10 @@
       max-width: 475px;
     }
     
-    .about{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:2rem;
-    }
-    .about-text> h1{
-        color: black;
-        font-size: 1.5rem;
-    }
-    
-    .about-text>p{
-        color: black;
-        font-size: 1rem;
-        max-width: 50ch;
-    }
     .aboutPicture{
-        height:350px;
+        width:25rem;
+        height:35rem;
+        order:2;
     }
   }
   
@@ -146,28 +119,11 @@
     .container {
       width: 100%;
     }
-    .about{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:2rem;
-        margin: 10px 0px;
-    }
-    .about-text> h1{
-        color: black;
-        font-size: 1.4rem;
-    }
-    
-    .about-text>p{
-        color: black;
-        font-size: 1rem;
-        max-width: 50ch;
-    }
+
     .aboutPicture{
-        height:250px;
+        width:90%;
+        height:100%;
     }
-    .about-container{
-        gap:2rem;
-    }
+   
   }
   
