@@ -1,29 +1,24 @@
 
 .bgPicture {
-    background-image: url(../back.jpg);
-    background-size: 100vw 110vh;   /*this is the size of the background which is seperate from the actual container size*/
-    height: 110vh;  /*this deals with the actual container size. It must be big enough to fit the background size of the picture*/
+    background-image: url(../backgroundRE.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
 }
 
-.intro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 110vh;
-
-    gap:3rem;
-}
-
-.intro >h1{
+.introHeader{
  color:white;
  font-size: 3rem;
+ background-color:rgba(0, 0, 0, 0.4); 
+ padding: 1rem;
+ font-weight: 300;
+
+ position: absolute;
+ top:70%;
+ left:50%;
+ transform: translate(-50%, -50%);
 }
-.intro >p{
-    color:white;
-    font-size: 2rem;
-    width: 60ch;
-}
+
 
 .container {
   max-width: 1536px;
@@ -49,6 +44,7 @@
     .container {
       max-width: 1024px;
     }
+ 
   }
   
   /* lg */
@@ -56,31 +52,10 @@
     .container {
       max-width: 768px;
     }
-
-.bgPicture {
-  background-image: url(../back.jpg);
-  background-size: 100vw 95vh;   /*this is the size of the background which is seperate from the actual container size*/
-  height: 95vh;  /*this deals with the actual container size. It must be big enough to fit the background size of the picture*/
-}
-
-.intro{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 95vh;
-  gap:3rem;
-}
-
-.intro >h1{
-color:white;
-font-size: 2.5rem;
-}
-.intro >p{
-  color:white;
-  font-size: 1.5rem;
-  width: 60ch;
-}
+    .introHeader{
+      font-size: 2.5rem;
+      width:23ch;
+    }
 
   }
   
@@ -89,30 +64,12 @@ font-size: 2.5rem;
     .container {
       max-width: 640px;
     }
-    .bgPicture {
-      background-image: url(../back.jpg);
-      background-size: 100vw 80vh;   /*this is the size of the background which is seperate from the actual container size*/
-      height: 80vh;  /*this deals with the actual container size. It must be big enough to fit the background size of the picture*/
+    .bgPicture{
+      background-position: center;
+      
     }
-    
-    .intro{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 80vh;
-      gap:3rem;
-    }
-    
-    .intro >h1{
-    color:white;
-    font-size: 2.5rem;
-    }
-    .intro >p{
-      color:white;
-      font-size: 1.5rem;
-      width: 60ch;
-    }
+
+   
   }
   
   /* sm */
@@ -120,23 +77,13 @@ font-size: 2.5rem;
     .container {
       max-width: 475px;
     }
-
-    .bgPicture {
-      background-image: url(../back.jpg);
-      background-size: 100vw 70vh;   /*this is the size of the background which is seperate from the actual container size*/
-      height: 70vh;  /*this deals with the actual container size. It must be big enough to fit the background size of the picture*/
+    
+    .bgPicture{
+      height:80vh;
+    
     }
     
-    .intro{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 70vh;
-      gap:3rem;
-    }
-    
-    .intro >h1{
+    .introHeader{
     color:white;
     font-size: 1.8rem;
     }
@@ -148,23 +95,20 @@ font-size: 2.5rem;
     .container {
       width: 100%;
     }
-    .bgPicture {
-      background-image: url(../back.jpg);
-      background-size: 100vw 40vh;   
-      height: 40vh;  
-    }
     
-    .intro{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 40vh;
-  
+    .bgPicture{
+      height:70vh;
     }
-    .intro >h1{
-      color:white;
-      font-size: 1.2rem;
-      }
+    .introHeader{
+    font-size: 1.5rem;
+    width:24ch;
+    }
   }
   
+
+  @media (max-width: 350px) {
+    .introHeader{
+    font-size: 1.2rem;
+    width:24ch;
+    }
+  }

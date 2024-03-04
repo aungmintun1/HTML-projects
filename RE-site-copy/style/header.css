@@ -1,9 +1,9 @@
 header{
-    padding:10px;
+    padding:1.75rem;
 }
 
 .headerBG{
-    background-color: gray;
+    background-color: black;
 }
 
  ul
@@ -11,11 +11,11 @@ header{
     list-style: none;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     
     }
     nav li{
-        margin: 0 10px;
+        margin: 0 2.5rem;
     }
     nav a {
         color: #fff;
@@ -34,7 +34,7 @@ header{
         margin-right: auto;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        border: solid red 2px;
+      
       }
       
       /* 2xl */
