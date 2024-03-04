@@ -1,5 +1,5 @@
 .home{
-    margin: 5rem auto;
+    margin: 2rem auto;
     display: flex;
     justify-content: center;
 }
@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     gap:4rem;
-    padding:8rem 0;
+    padding:1rem;
 }
 .home-header{
     width:20ch;
@@ -90,9 +90,10 @@
   @media (max-width: 1024px) {
     .container {
       max-width: 768px;
-      border:solid red 2px;
+     
     }
     .home{
+      margin:2rem;
       flex-direction: column;
       align-items: center;
     }
@@ -115,12 +116,16 @@
     .home-text-container{
       padding:2rem;
       gap:2rem;
+     
     }
     .container {
       max-width: 475px;
     }
     .home-header{
-      font-size: 2rem;
+      font-size: 2.5rem; 
+      width: auto;
+      line-height: 1.5;
+      align-self: start;
     }
     .home-paragraph{
       width:40ch;
@@ -142,20 +147,23 @@
     .container {
       width: 100%;
     }
-  
+    .home{
+      padding:1rem;
+    }
+      
     .home-text-container{
       padding:0;
       gap:2rem;
+    }
+    .home-header{
+      font-size:2rem;
+      text-align: center;
     }
     .home-paragraph{
       width:30ch;
       font-size:1rem;
     }
-    .home-header{
-      font-size: 1.2rem;
-      text-align: center;
-      align-self: center;
-    }
+  
     .btnContainer{
       justify-content: center;
       gap:1rem;

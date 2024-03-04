@@ -50,6 +50,7 @@
     color:white;
     border-radius: 8px;
     transition: all 0.4s;
+    text-decoration: none;
 }
 .emailBtn:hover{
     background-color: black;
@@ -70,3 +71,76 @@
     background-color: black;
     transform: translateY(4px);
 }
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .contact-header{
+        font-size:2rem;
+    }
+    .emailBtn, .linkinBtn{
+        padding:1rem 2rem;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+    .contact-header{
+        font-size:1.5rem;
+        width:20ch;
+    }
+    .emailBtn, .linkinBtn{
+        padding:1rem;
+        font-size: 1rem;
+    }
+    .contact-line{
+        width:4rem;
+    }
+   
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+    .contact-header{
+        font-size:1.5rem;
+    }
+  }
+  
+  

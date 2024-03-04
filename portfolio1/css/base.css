@@ -35,6 +35,10 @@ background: none;
 cursor: pointer;
 font-family: inherit;
 }
+:root {
+  --blue: #2662fa;; /* Define primary color */
+  --orange: #ff5c33; /* Define secondary color */
+}
 
 .container {
     max-width: 1536px;

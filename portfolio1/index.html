@@ -6,45 +6,82 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+
     
 </head>
 <body>
+
+    
     
     <header class="header">
+        <div class="header-name-container">
+            <div class="header-icon"><p>AT</p></div>
+            <h2 class="header-name">Aung Min Tun</h2>
+        </div>
+       
         <nav>
             <ul>
                 <li><a href="#home"> Home</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
     </header>
 
-    <section class="about container">
+    <div class="navigation">
 
-    <div class="about-text-container">
-        <h1 class="about-header">Crafting Digital Experiences Through Content Management</h1>
-        <p class="about-paragraph">👋 I'm Aung Min, a competent Web Content Manager and Developer. My expertise lies in crafting captivating online experiences that engage and inspire. I specialize in curating 
-        content that resonates and designing websites that leave a lasting impression.
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#home" class="navigation__link">Home</a></li>
+                <li class="navigation__item"><a href="#aabout" class="navigation__link">About</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+                <li class="navigation__item"><a href="#portfolio" class="navigation__link">Portfolio</a></li>
+                <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+
+    <section class="home container" id="home">
+
+    <div class="home-text-container">
+        <h1 class="home-header">Crafting Digital Experiences Through Content Management</h1>
+        <p class="home-paragraph">👋 I'm Aung Min, a competent Web Developer whose expertise lies in crafting captivating online experiences that engage and inspire. I specialize in creating 
+        content that resonates with its users and designing websites that leave a lasting impression.
         </p>
 
         <div class="btnContainer">
             <button class="exploreBtn">explore my work</button>
-            <button class="aboutBtn">about me</button>
+            <button class="homeBtn">about me</button>
         </div>
     </div>
-    <img class="about-picture" src="./img/about-picture.JPG" alt="about picture">
+    <img class="home-picture" src="./img/about-picture.JPG" alt="home picture">
 
     
 
     </section>
    
 
-    <section class="skills container">
+    <section class="skills container" id="skills">
 
-        <div class="skillsContainer">
+        <div class="skillsContainer ">
             <div class="skillsTitle"> <div class="line"></div> <p>my skills & expertise</p></div>
             <h1 class="skillsHeader">Creating, Coding, Managing Content</h1>
             <div class="skillsText">
@@ -87,5 +124,78 @@
 
 
     </section>
+
+
+    <section class="about container" id="about">
+        <img class="about-picture" src="./img/aung-laptop.jpeg" alt="about picture" >
+        <div class="about-text-container ">
+
+            <div class="about-title"> <div class="line"></div> <p>About Me</p></div>
+            <h1 class="about-header">My Professional Journey</h1>
+            <p class="about-paragraph">In my journey as a developer, I am dedicated to delivering top-notch online solutions.
+                 My expertise in responsive design, content management systems, and performance optimization, make me a valuable asset to any 
+                 digital project. Aside from coding, I'm equally passionate about photography and art. I love using my creativity in order to produce beautiful
+                 pictures that tell a story as well as capturing moments, creating lasting memories.
+            </p>
+
+
+        </div>
+       
+    </section>
+
+<div class="portfolio-background">
+    <section class="portfolio container" id="portfolio">
+
+        <a href="https://aungnexter.netlify.app/" class="portfolio-link">
+        <div class="portfolio-box">
+          
+            <img class="portfolio-picture" src="./img/nexter.jpeg" alt="project picture">
+
+            <h3>HTML & CSS</h3>
+            <h2>Nexter Website</h2>
+        </div>
+        </a>
+
+        <a href="https://aungrealestatephotography.netlify.app/" class="portfolio-link">
+        <div class="portfolio-box">
+            
+          
+            <img class="portfolio-picture" src="./img/REphotography.jpeg" alt="project picture">
+
+            <h3>HTML & CSS</h3>
+            <h2>Real Estate Photography Website</h2>
+       
+        </div>
+          </a>
+       
+        
+        <div class="portfolio-box"></div>
+        <div class="portfolio-box"></div>
+
+    </section>
+</div>
+
+<div class="contactBackground">
+<section class="contact container" id="contact"> 
+
+    <div class="contact-text-container">
+        <div class="contact-title"><div class="contact-line"></div> <h2>Contact Me </h2><div class="contact-line"></div></div>
+        <h1 class="contact-header">Your Best Candidate For Content Management Specialist.</h1>
+
+        <div class="contact-btn-container">
+            <a href="mailto:aungmintunav@gmail.com" class="emailBtn">Email Me</a>
+            <button class="linkinBtn">LinkedIn</button>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© Copyright 2024 Aung Min Tun - Content Management Specialist | All Rights Reserved</p>
+</footer>
+</div>
+
+<script src="js/nav.js"></script>
 </body>
 </html>
