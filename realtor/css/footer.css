@@ -1,6 +1,6 @@
 .footer{
     background-color: #101d2c;;
-    padding: 8rem;
+    padding: 4rem;
 }
 
 .nav{
@@ -8,6 +8,7 @@
     display: flex;
     gap:4rem;
     justify-content: center;
+
 }
 .nav li a {
     text-decoration: none;
@@ -26,3 +27,23 @@
     text-align: center;
     margin-top:5rem;
 }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .nav li a {
+        font-size: 1rem;
+    }
+    
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+       
+    }
+  }
+
+  
