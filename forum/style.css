@@ -1,0 +1,174 @@
+
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: calc(1em+0.5rem)
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+font-family: 'Inter', sans-serif;
+background-color: #efc8f1;
+}
+
+input, button, textarea, select{
+border: none;
+background: none;
+cursor: pointer;
+font-family: inherit;
+
+}
+
+.header{
+    padding: 2rem;
+    background-color: rgb(181, 132, 238);
+}
+
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap:3rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu{
+    background-color: black;
+    padding: 3rem;
+}
+
+.menulist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap:2rem;
+}
+
+.margin{
+    margin: 6rem;
+}
+
+.threads, .comment_input_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.threadHeader{
+    margin: 5rem 0;
+}
+
+.addThreadBtn{
+    padding: 1.5rem 5rem;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right, #8456EC, #b106cb);
+    font-size: 2rem;
+    color:white;
+}
+
+.search-input{
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 250px;
+    font-size: 1rem;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.threadCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+    gap:3rem;
+   padding: 2rem 4rem 5rem 4rem;
+    box-shadow: 20px 30px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.author{
+    display: flex;
+    gap: 3rem;
+}
+
+.comment_input{
+    background-color: white;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.addCommentBtn{
+    padding: 1.3rem 4rem;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right, #8456EC, #b106cb);
+    font-size: 1.5rem;
+    color:white;
+}
+
+.comment_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    gap:3rem;
+    padding:3rem;
+    box-shadow: 20px 30px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.commentCard p {
+    max-width: 40ch;
+}
