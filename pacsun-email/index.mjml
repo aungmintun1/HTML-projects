@@ -7,37 +7,7 @@
     .black{
       color:black;
     }
-
-       @media only screen and (min-width:480px) {
-  
-        .product-picture {
-          width: 190px;
-          height:280px;
-        }
-
-       .section2 {
-        width: 100%;
-        height: 400px;
-        padding:0;
-      }
-
-      .section4 {
-        width: 100%;
-        padding:0;
-        height: 650px;
-      }
-
-      }
-
-      @media only screen and (max-width:480px) {
-  
-        .product-picture {
-          height:200px;
-        }
-        
-      }
-
-
+ 
     </mj-style>
 
     <mj-style inline='inline'>
@@ -68,7 +38,12 @@
       .social-container {
         max-width: 280px;
       }
-     
+
+
+      
+   
+
+         
     </mj-style>
   </mj-head>
 
@@ -100,18 +75,18 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="white" padding="0 0 20px 0">
+      <mj-section background-color="white" padding="0 0 25px 0">
        <mj-group>
-        <mj-column padding="0">
-          <mj-image css-class="product-picture"  align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl1.png'>
+        <mj-column >
+          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl1.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="center" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl2.png'>
+          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl2.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl3.png'>
+          <mj-image width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl3.png'>
         </mj-column>
        </mj-group>
       </mj-section>
@@ -119,16 +94,16 @@
       <mj-section background-color="white" padding="0">
        <mj-group>
    
-        <mj-column padding="0">
-          <mj-image css-class="product-picture" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants1.png'>
+        <mj-column>
+          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants1.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="center" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants2.png'>
+          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants2.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants3.png'>
+          <mj-image  width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants3.png'>
         </mj-column>
        </mj-group>
       </mj-section>
@@ -157,19 +132,19 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="white" padding="0 0 20px 0">
+      <mj-section background-color="white" padding="0 0 25px 0">
        <mj-group>
        
         <mj-column padding="0">
-          <mj-image css-class="product-picture" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-1.jpg'>
+          <mj-image width="190px" align="left"  padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-1.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="center" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-2.jpg'>
+          <mj-image width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-2.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-3.jpg'>
+          <mj-image  width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-3.jpg'>
         </mj-column>
        </mj-group>
       </mj-section>
@@ -178,15 +153,15 @@
        <mj-group>
        
         <mj-column padding="0">
-          <mj-image css-class="product-picture" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-4.jpg'>
+          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-4.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="center" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-5.jpg'>
+          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-5.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image css-class="product-picture" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-6.jpg'>
+          <mj-image width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-6.jpg'>
         </mj-column>
 
          </mj-group>
@@ -312,16 +287,16 @@
       <mj-section background-color="white" padding="10px 0">
         <mj-group css-class="social-container">
           <mj-column padding="0">
-            <mj-image padding="0" width="50px" src='http://127.0.0.1:5500/pacsun-email/img/instagram.png' />
+            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/instagram.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image padding="0" width="50px" src='http://127.0.0.1:5500/pacsun-email/img/twitter.png' />
+            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/twitter.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image padding="0" width="50px" src='http://127.0.0.1:5500/pacsun-email/img/snapchat.png' />
+            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/snapchat.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image padding="0" width="40px" src='http://127.0.0.1:5500/pacsun-email/img/tiktok.png' />
+            <mj-image width="40px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/tiktok.png' />
           </mj-column>
         </mj-group>
       </mj-section>
