@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        @media only screen and (min-width: 600px){
+        .container{
+        width:600px;
+        }
+
+        .rec-image{
+            width:130px;
+            height:130px; 
+            margin-right:8px; 
+            border-radius:8px;
+        }
+
+        .refurb-table{
+            width: 75%;
+        }
+
+        .shop-table{
+            width:25%;
+            text-align: right;
+        }
+        .vs-text{
+            text-align: left;
+            margin:0 0 1rem 0;
+            font-family:sans-serif;
+            font-size:14px;
+        }
+
+        
+        }
+        
+        @media only screen and (max-width: 600px) {
+        .container{
+        margin:0;
+        width: 100%;
+        }
+        .rec-image{
+            width:130px;
+            height:130px; 
+            margin-right:8px; 
+            border-radius:8px;
+        }
+
+        .refurb-table{
+            width: 100%;
+            text-align: center;
+        }
+
+        .shop-table{
+            width: 100%;
+            text-align: center;
+        }
+        .vs-text{
+            text-align: center;
+        }
+
+        }
+    </style>
 </head>
-<body >
+<body style="background-color:rgb(208, 234, 243); margin:0;" >
 
         <!-- start of html email -->
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -13,8 +73,8 @@
 
             <tr>
               <td>
-                <table style="margin-top:2rem;" class="container" width="600" align="center" cellspacing="0"
-                cellpadding="0" border="0">
+                <table style="padding:.5rem 1.5rem; background-color:white;" class="container" width="600" align="center" cellspacing="0"
+                cellpadding="0" border="0" >
                   <!-- start of main row -->
       
                  <!-- start of section 1 -->
@@ -92,83 +152,103 @@
                         <table width="100%;" border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <table align="left" cellspacing="0" cellpadding="0">
+                                 <table width="100%;" border="0" cellspacing="0" cellpadding="0">
+                                     <tr>
+                                        <td>
+                                        
+                                    <table class="refurb-table" align="left" cellspacing="0" cellpadding="0" border="0">
                                         <tr>
                                             <td>
                                                 <h2 style="color:#781959; font-family:sans-serif;font-size:28px; margin:0;">See more refurbished finds</h2>
                                             </td>
                                         </tr>
                                     </table>
-                                    <table align="right">
+                                    
+                                    <table class="shop-table" align="left" cellspacing="0" cellpadding="0" border="0">
                                         <tr>
                                             <td>
                                                 <a style="color:black; font-family:sans-serif;font-size:16px; margin:0; font-weight:700; text-decoration:underline;" href="#">Shop now</a>
                                             </td>
                                         </tr>
                                     </table>
+
+                                         </td>
+                                     </tr>
+
+                                 </table>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td>
-                                    <p style="margin:0 0 1rem 0; font-family:sans-serif; font-size:14px;">Up to 50% off vs. buying new.</p>
+                                    <p class="vs-text">Up to 50% off vs. buying new.</p>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td>
-                                    <table align="left" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td>
-                                                <img style="width:130px; height:130px; margin-right:8px; border-radius:8px;" src="./img/laptop.png" alt="item recommendation">
-                                                
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Laptops</a>
-                                            </td>
-                                        </tr>
+                                  <table align="center" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <table align=right cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <img class="rec-image" src="./img/laptop.png" alt="item recommendation">
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Laptops</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        
+                                            <table align=right cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <img class="rec-image" src="./img/headphone.png" alt="item recommendation">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Headphones</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
 
-                                    </table>
-                                    <table align="left" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td>
-                                                <img style="width:130px; height:130px;margin-right:8px;border-radius:8px;" src="./img/headphone.png" alt="item recommendation">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Headphones</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
-                                    <table align="left" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td>
-                                                <img style="width:130px; height:130px;margin-right:8px;border-radius:8px;" src="./img/drill.png" alt="item recommendation">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Tools</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
-                                    <table align="left" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td>
-                                                <img style="width:130px; height:130px;border-radius:8px;" src="./img/vaccum.png" alt="item recommendation">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Vaccums</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
+                                        <td>
+                                            <table align="left" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <img class="rec-image" src="./img/drill.png" alt="item recommendation">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Tools</a>
+                                                    </td>
+                                                </tr>
+        
+                                            </table>
+                                        
+                                            <table align="left" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <img class="rec-image" src="./img/vaccum.png" alt="item recommendation">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a style="margin:0; padding:0; text-decoration:none; color:#006efc;" href="#">Vaccums</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                  </table>
+                                  
                                 </td>
                             </tr>
                         </table>
@@ -266,7 +346,7 @@
                                         </tr>
                                     </table>
 
-                                    <table align="left" cellspacing="0" cellpadding="0" width="90%">
+                                    <table align="center" cellspacing="0" cellpadding="0" width="90%">
                                         <tr>
                                             <td>
                                                 <p style="font-family:sans-serif; color:#781959; font-size:14px; font-weight:700;margin:4px 0 10px 0;">Order Total:</p>
@@ -369,7 +449,7 @@
                      <!-- end of section 6 -->
 
 
-                6
+                
 
 
 

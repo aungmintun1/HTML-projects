@@ -1,0 +1,13 @@
+<mj-wrapper padding="0">
+      <mj-section background-color="white">
+        <mj-column padding="0">
+          <mj-image src='./img/pacsun-header.png' width="200px">
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="black">
+       <mj-column>
+        <mj-text padding="0" color="white" align="center" font-size="16px" font-family="sans-serif"> $5 Reward just for signing up!  |  Join Rewards </mj-text>
+       </mj-column>
+      </mj-section>
+    </mj-wrapper>

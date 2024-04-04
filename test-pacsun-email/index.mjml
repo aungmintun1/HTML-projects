@@ -1,0 +1,367 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    .black{
+      color:black;
+    }
+ 
+    </mj-style>
+
+    <mj-style inline='inline'>
+    
+      .button-container {
+        background-image: url('https://aung-pacsun-mock-email.netlify.app/img/purple.png');
+        background-size: contain;
+      }
+
+      .button-container2 {
+        background-image: url('https://aung-pacsun-mock-email.netlify.app/img/yellow.png');
+        background-size: cover;
+      }
+
+      .grayborder {
+        border-bottom: solid lightgray 2px;
+        border-right: solid lightgray 2px;
+      }
+
+      .grayborder2 {
+        border-bottom: solid lightgray 2px;
+      }
+
+      .grayborder-right {
+        border-right: solid lightgray 2px;
+      }
+
+      .social-container {
+        max-width: 280px;
+      }
+
+
+      
+   
+
+         
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="lightgray">
+
+    <mj-include path='./components/header.mjml'>
+
+      <mj-section padding="0" >
+       <mj-column padding="0">
+         <mj-image padding="0" css-class="section2" src='https://aung-pacsun-mock-email.netlify.app/img/sec2.png'/>
+       </mj-column>
+      </mj-section>
+
+      <mj-section css-class="button-container" padding="0 10px 20px 10px">
+        <mj-column width="33.3333%" padding="1px 1px" >
+          <mj-button href="https://www.pacsun.com/mens/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="black" color="white" padding="0">
+            Shop Men
+          </mj-button>
+        </mj-column>
+        <mj-column width="33.3333%" padding="1px 1px">
+          <mj-button href="https://www.pacsun.com/womens/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="black" color="white" padding="0">
+            Shop Women
+          </mj-button>
+        </mj-column>
+        <mj-column width="33.3333%" padding="1px 1px">
+          <mj-button href="https://www.pacsun.com/kids/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="black" color="white" padding="0">
+            Shop Kids
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white" padding="0 0 25px 0">
+       <mj-group>
+        <mj-column >
+          <mj-image  width="190px" align="left" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-girl1.png'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image  width="190px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-girl2.png'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="190px" align="right" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-girl3.png'>
+        </mj-column>
+       </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="0">
+       <mj-group>
+   
+        <mj-column>
+          <mj-image  width="190px" align="left" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-pants1.png'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image  width="190px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-pants2.png'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image  width="190px" align="right" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/pac-pants3.png'>
+        </mj-column>
+       </mj-group>
+      </mj-section>
+
+      <mj-section padding="0" >
+       <mj-column padding="0">
+         <mj-image padding="0" css-class="section4" src='https://aung-pacsun-mock-email.netlify.app/img/sec4.png'/>
+       </mj-column>
+      </mj-section>
+
+      <mj-section css-class="button-container2" padding="0 10px 30px 10px">
+        <mj-column width="33.3333%" padding="1px 1px">
+          <mj-button href="https://www.pacsun.com/mens/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="beige" color="black" padding="0">
+            Shop Men
+          </mj-button>
+        </mj-column>
+        <mj-column width="33.3333%" padding="1px 1px">
+          <mj-button href="https://www.pacsun.com/womens/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="beige" color="black" padding="0">
+            Shop Women
+          </mj-button>
+        </mj-column>
+        <mj-column width="33.3333%" padding="1px 1px">
+          <mj-button href="https://www.pacsun.com/kids/" width="100%" height="65px" font-family="Helvetica" font-size="22px" background-color="beige" color="black" padding="0">
+            Shop Kids
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white" padding="0 0 25px 0">
+       <mj-group>
+       
+        <mj-column padding="0">
+          <mj-image width="190px" align="left"  padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-1.jpg'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="190px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-2.jpg'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image  width="190px" align="right" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-3.jpg'>
+        </mj-column>
+       </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="0">
+       <mj-group>
+       
+        <mj-column padding="0">
+          <mj-image  width="190px" align="left" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-4.jpg'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image  width="190px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-5.jpg'>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="190px" align="right" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/model-6.jpg'>
+        </mj-column>
+
+         </mj-group>
+      </mj-section>
+
+      <mj-wrapper padding="0">
+        <mj-section background-color="white" padding="0">
+          <mj-column padding="0" css-class="grayborder">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> Men </mj-text>
+          </mj-column>
+          <mj-column css-class="grayborder2">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> Women </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="white" padding="0">
+          <mj-column padding="0" css-class="grayborder">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> Unisex </mj-text>
+          </mj-column>
+          <mj-column css-class="grayborder2">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> Swim </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="white" padding="0">
+          <mj-column padding="0" css-class="grayborder-right" border-bottom="solid lightgray 2px">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> New Arrivals </mj-text>
+          </mj-column>
+          <mj-column border-bottom="solid lightgray 2px">
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="16px"> Sale </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.pacsun.com/contact-us?cid=email-us" padding="0" src="https://aung-pacsun-mock-email.netlify.app/img/textFriend.png"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-wrapper padding="0">
+        <mj-section background-color="white" padding="0">
+          <mj-column padding="20px 0" vertical-align="bottom" css-class="grayborder-right" border-bottom="solid lightgray 2px">
+            <mj-image width="50px" src='https://aung-pacsun-mock-email.netlify.app/img/reward.png' />
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> PacSun Rewards </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> $5 Reward just for signing up! </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/pacsun-rewards.html" class="black">Learn More</a></mj-text>
+          </mj-column>
+
+          <mj-column padding="20px 0" vertical-align="bottom" border-bottom="solid lightgray 2px">
+            <mj-image width="50px" src='https://aung-pacsun-mock-email.netlify.app/img/friend.png' />
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Refer a Friend </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> Give 20% off to get 20% off* </mj-text>
+         <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/refer-a-friend" class="black">Learn More</a></mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="white" padding="0">
+          <mj-column padding="20px 0" vertical-align="bottom" css-class="grayborder-right" border-bottom="solid lightgray 2px">
+            <mj-image width="30px" src='https://aung-pacsun-mock-email.netlify.app/img/phone.png' />
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Buy Online, Pick Up In-Store </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> 10% off your order* </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/pacsun/in-store-pick-up.html" class="black">Learn More</a></mj-text>
+          </mj-column>
+
+          <mj-column padding="20px 0" vertical-align="bottom" border-bottom="solid lightgray 2px">
+            <mj-image width="50px" src='https://aung-pacsun-mock-email.netlify.app/img/pac.png' />
+            <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Send a Gift Card </mj-text>
+            <mj-text font-family="sans-serif" align="center" padding="3px 0"> You pick the card. They pick the gift </mj-text>
+           <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.buyatab.com/custom/pacsun/" class="black">Learn More</a></mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+
+
+      <mj-section background-color="white" padding="20px 10px" border-bottom="solid lightgray 2px">
+       <mj-group>
+       
+        <mj-column padding="0">
+          <mj-image width="125px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/afterpay.png' />
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-image width="50px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/apple.png' />
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-image width="125px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/cash.png' />
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-image width="70px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/catch.png' />
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-image width="100px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/paypal.png' />
+        </mj-column>
+
+        <mj-column padding="5px 0">
+          <mj-image align="center" width="70px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/venmo.png' />
+        </mj-column>
+
+       </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="10px 0">
+       <mj-group>
+       
+        <mj-column padding="0">
+          <mj-text align="right" font-family="sans-serif"> <a href="https://www.pacsun.com/login/" class="black"> My Account</a> </mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text align="center" font-family="sans-serif" text-decoration="underline"> <a href="https://www.pacsun.com/stores" class="black"> Find a Store</a></mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text align="left" font-family="sans-serif" text-decoration="underline"><a href="https://www.pacsun.com/" class="black"> Download the App</a></mj-text>
+        </mj-column>
+
+       </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="10px 0">
+        <mj-group css-class="social-container">
+          <mj-column padding="0">
+            <mj-image width="45px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/instagram.png' />
+          </mj-column>
+          <mj-column padding="0">
+            <mj-image width="45px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/twitter.png' />
+          </mj-column>
+          <mj-column padding="0">
+            <mj-image width="45px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/snapchat.png' />
+          </mj-column>
+          <mj-column padding="0">
+            <mj-image width="40px" padding="0" src='https://aung-pacsun-mock-email.netlify.app/img/tiktok.png' />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="10px 0">
+        <mj-column>
+          <mj-text align="center" color="lightgray"> †† By signing up for texts, you give PacSun permission to send recurring automated advertising and
+            telemarketing text messages (SMS and MMS) to your cell number used when signing up. You understand consent is
+            not a direct or indirect condition of purchase and acknowledge that personal information is not required for
+            purchase. Msg & data rates may apply. You can reply "STOP" to any PacSun text to stop receiving them. You consent
+            to this use of an e-signature to provide PacSun with your permission. To access and retain a record of your consent
+            take a screenshot on your mobile device. Visit (https://www.pacsun.com/company/terms-of-use.html#sms) or E-Sign Act
+            and Messaging Terms & Conditions and (https://www.pacsun.com/company/privacy-policy.html) for Privacy Policy.
+          </mj-text>
+
+           <mj-text align="center" color="lightgray"> Reward Certificate Redemption: <br> Reward certificates expire 45 days after issuance.
+          </mj-text>
+
+          <mj-text align="center" color="lightgray"> This email was sent to JohnSmith@gmail.com by PacSun.
+          </mj-text>
+
+           <mj-text align="center" color="lightgray">Pacific Sunwear of California, LLC <br> 3450 E. Miraloma Ave.<br> Anaheim, CA 92806-2101
+          </mj-text>
+   
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white" padding="10px 0">
+       <mj-group>
+       <mj-column padding="0">
+            <mj-text padding="0" align="right" color="lightgray" text-decoration="underline">Unsubscribe</mj-text>
+       </mj-column>
+        <mj-column padding="0">
+            <mj-text padding="0" align="center" color="lightgray" text-decoration="underline">Manage Preferences</mj-text>
+       </mj-column>
+        <mj-column padding="0">
+            <mj-text padding="0" align="left" color="lightgray" text-decoration="underline">Privacy Policy</mj-text>
+       </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="white" padding="10px 0">
+       <mj-column>
+        <mj-text align="center" color="lightgray">To ensure delivery to your inbox, add hello@mkt.pacsun.com to your address book/trusted sender list.
+          </mj-text>
+
+          <mj-text align="center" color="lightgray">*Valid on select styles. Savings not applicable to taxes. 
+            Free standard shipping on jeans, pants, or orders over $50. U.S. only. Shipments to AK, HI, PR and 
+            Military APO/FPO do not qualify for free shipping. Offer subject to change.
+          </mj-text>
+       </mj-column>
+      </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </mj-body>
+
+</mjml>
