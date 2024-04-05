@@ -1,0 +1,56 @@
+ <mj-wrapper padding="0" css-class="footer">
+       <mj-section padding="0" >
+        <mj-group css-class="icons-size">
+        
+        <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/fb.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/tw.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/insta.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/snap.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/in.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/pin.png' width="27px" height="27px">
+        </mj-column>
+
+         <mj-column padding="0">
+         <mj-image padding="0 5px" src='http://127.0.0.1:5500/mjml-email/img/yt.png' width="27px" height="27px">
+        </mj-column>
+
+         </mj-group>
+       </mj-section>
+
+       <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-text
+          font-size="10px"
+          align="center">
+          &copy; Shopify, 151 O'Connor Street, Ground floor, Ottawa ON, K2P 2L8
+          </mj-text>
+        </mj-column>
+       </mj-section>
+
+       <mj-section padding="0 0 60px 0 ">
+        <mj-column>
+        <mj-text align="center" font-size="10px"> 
+         <a class="footer-link" href='#' >Unsubscribe</a>
+         |
+         <a class="footer-link" href="#">Manage your email preferences</a>
+         </mj-text>
+        
+        </mj-column>
+       </mj-section>
+      </mj-wrapper>

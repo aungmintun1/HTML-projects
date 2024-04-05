@@ -1,0 +1,5 @@
+<mj-section background-color="white">
+  <mj-column>
+    <mj-image padding="0" src="http://127.0.0.1:5500/mjml-email/img/3-lines.png">
+  </mj-column>
+</mj-section>

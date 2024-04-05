@@ -1,0 +1,131 @@
+<mjml>
+
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .link-color:hover{
+        font-weight: bold;
+        color: #004c3f;
+        text-decoration: underline;
+        }
+
+      .link-color{
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+       .footer-link{
+        color:black;
+        text-decoration:none;
+      }
+       .footer-link:hover{
+        text-decoration:underline;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .icons-size{
+        max-width: 280px;
+        padding: 45px 0 40px;
+      }
+
+      .footer{
+        background-image: url('http://127.0.0.1:5500/mjml-email/img/bg-colors.png');
+        background-size: 600px;
+        background-color:white;
+      }
+     
+    </mj-style>
+  </mj-head>
+<mj-body background-color="#f2f2f2">
+
+
+ 
+
+    <mj-raw>
+    <!-- header -->
+    </mj-raw>
+    <mj-include path='./components/header.mjml'>
+
+
+    <mj-raw>
+    <!-- intro -->
+    </mj-raw>
+
+      <mj-section background-color="white">
+        <mj-column padding="20px 0 0 0" >
+          <mj-text css-class="header-title" font-size="58px" color="#004c3f" font-weight="bold">
+            What's New
+          </mj-text>
+          <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">
+            July 18, 2028
+          </mj-text>
+          </md-column>
+          
+      </mj-section>
+
+       <mj-include path='./components/yellow-row.mjml' >
+
+      <mj-section background-color="white" >
+       <mj-column padding="0 0 20px 0" >
+        <mj-image src='http://127.0.0.1:5500/mjml-email/img/image.jpg'>
+       </mj-column>
+       <mj-column>
+        <mj-text font-size="24px" color="#004c3f" font-weight="bold" css-class="link-color"> Find more ways to sell with pre-orders </mj-text>
+
+        <mj-text font-size="14px" color="#004c3f" line-height="20px"> 
+        We've gone and made selling even easier,
+        with pre-orders. Give your customers the
+        ability to pay now, pay a deposit, or pay
+        later, and in the process, increase your
+        sales, forecast demand, and create buzz
+        for your products.
+        </mj-text>
+
+        <mj-text  font-size="14px" color="#004c3f" font-weight="bold"> <a href="#" class="link-color">Learn More</a> </mj-text>
+        
+
+       </mj-column>
+      </mj-section>
+
+      <mj-include path='./components/yellow-row.mjml'  >
+
+      <mj-section background-color="white" padding="0 60px" >
+       <mj-column>
+          <mj-text font-size="18px" line-height="25px" color="black" font-weight="bold" align="center"> 
+          Running a business like yours isn't a desk job. Keep it from becoming one with the Shopify app
+           </mj-text>
+       </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white" >
+       <mj-group>
+
+        <mj-column>
+         <mj-image  align="right" src='http://127.0.0.1:5500/mjml-email/img/appstore.png' width="150px" height="43px" padding="0 5px">
+        </mj-column>
+
+        <mj-column>
+         <mj-image  align="left" src='http://127.0.0.1:5500/mjml-email/img/android.png' width="150px" height="43px" padding="0 5px">
+        </mj-column>
+       </mj-group>
+      </mj-section>
+
+      <mj-include path='./components/footer.mjml'>
+     
+    
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,5 @@
+<mj-section css-class="header section-padding">
+      <mj-column>
+        <mj-image width="121px" align="left" src="http://127.0.0.1:5500/mjml-email/img/logo.png">
+      </mj-column>
+</mj-section>
