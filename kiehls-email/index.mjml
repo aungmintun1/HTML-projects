@@ -1,0 +1,190 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+
+    <mj-style inline='inline'>
+     .header-link{
+      color:white;
+      padding-right: 5px;
+     }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#B9DEFF">
+  <mj-section background-color="#000000">
+      <mj-column width="160px">
+        <!-- Brand Logo -->
+        <mj-image padding="0" src="img/kiehl-header.png" alt="logo" ></mj-image>
+      </mj-column>
+      <mj-column width="440px">
+        <!-- Navigation Links -->
+        <mj-navbar align="left">
+          <mj-navbar-link font-weight="bold" padding="10px 12px" font-size="13px" color="#FFFFFF" href="link_to_offers">SKIN CARE</mj-navbar-link>
+          <mj-navbar-link font-weight="bold" padding="10px 12px" font-size="13px" color="#FFFFFF" href="link_to_services">OFFERS</mj-navbar-link>
+          <mj-navbar-link font-weight="bold" padding="10px 12px" font-size="13px" color="#FFFFFF" href="link_to_skin_care">BEST SELLERS</mj-navbar-link>
+          <mj-navbar-link font-weight="bold" padding="10px 12px" font-size="13px" color="#FFFFFF" href="link_to_mens_section">SERVICES</mj-navbar-link>
+          <mj-navbar-link font-weight="bold" padding="10px 12px" font-size="13px" color="#FFFFFF" href="link_to_best_sellers">MEN'S</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding="0">
+      <mj-column >
+       <mj-text font-size="16px" color="#FFFFFF" align="center"> 
+         <mj-raw ><a class="header-link" href='#'>Join Kiehl's Rewards</a></mj-raw> now for exclusive perks and offers </mj-text>
+      </mj-column>
+    
+    </mj-section>
+
+    <mj-section padding="0">
+     <mj-column >
+      <mj-image padding="0" src='img/skincare-set.png'>
+     </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0">
+     <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle1.jpg'/>
+      </mj-column>
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle2.jpg'/>
+      </mj-column>
+     </mj-section>
+
+      <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle3.jpg'/>
+      </mj-column>
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle4.jpg'/>
+      </mj-column>
+     </mj-section>
+
+      <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle5.jpg'/>
+      </mj-column>
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-bottle6.jpg'/>
+      </mj-column>
+     </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section padding="0">
+     <mj-column padding="0">
+      <mj-image padding="0" src='img/kiehl-quiz.jpg'/>
+     </mj-column>
+    </mj-section>
+    
+    <mj-wrapper background-color="black" padding="10px 0">
+     <mj-section padding="0">
+      <mj-column padding="0">
+         <mj-text color="white" font-size="26px" align="center"> DISCOVER KIEHL'S EXCLUSIVES </mj-text>
+      </mj-column>
+     </mj-section>
+
+     <mj-section padding="0">
+
+      <mj-column padding="0">
+       <mj-image padding="0 25px" src='img/kiehl-truck.jpg'/>
+       <mj-text color="white" font-size="15px" align="center" font-weight="bold"> FREE SHIPPING ON 50+ </mj-text>
+      </mj-column>
+
+      <mj-column padding="0">
+       <mj-image padding="0 25px" src='img/kiehl-offer.jpg'/>
+        <mj-text color="white" font-size="15px" align="center" font-weight="bold"> EXCLUSIVE OFFERS </mj-text>
+      </mj-column>
+
+      <mj-column padding="0">
+       <mj-image padding="0 25px" src='img/kiehl-sample.jpg'/>
+        <mj-text color="white" font-size="15px" align="center" font-weight="bold"> SAMPLES </mj-text>
+      </mj-column>
+
+      <mj-column padding="0">
+       <mj-image padding="0 25px" src='img/kiehl-loyal.jpg'/>
+        <mj-text color="white" font-size="15px" align="center" font-weight="bold"> LOYALTY</mj-text>
+      </mj-column>
+     </mj-section>
+
+     <mj-section padding="15px 0">
+      <mj-column padding="0" >
+       <mj-text color="white" font-size="20px" align="right" padding="0"> CONTACT US </mj-text>
+      </mj-column>
+      <mj-column padding="0" width="30px">
+       <mj-text color="white" font-size="20px" padding="0" align="center">|</mj-text>
+      </mj-column>
+      <mj-column padding="0">
+       <mj-text color="white" font-size="20px" padding="0">STORE LOCATER </mj-text>
+      </mj-column>
+     </mj-section>
+
+     <mj-section padding="0 185px">
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-fb.png'/>
+      </mj-column>
+
+         <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-ig.png'/>
+      </mj-column>
+
+         <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-tiktok.png'/>
+      </mj-column>
+
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-twitter.png'/>
+      </mj-column>
+
+     </mj-section>
+
+     <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-image padding="0" src='img/kiehl-footer.png'/>
+      </mj-column>
+     </mj-section>
+    </mj-wrapper>
+    
+    <mj-wrapper background-color="white">
+     <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-text align="center"> This email was sent to: JohnSmith@gmail.com. </mj-text>
+      </mj-column>
+     </mj-section>
+
+       <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-text align="center">
+        We respect your privacy. 
+       If you would rather not receive emails alerting you of Kiehl's special
+        offers, product announcements, and other news, please click here.
+        </mj-text>
+      </mj-column>
+     </mj-section>
+
+      <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-text align="center"> © 2024 Kiehl's Since 1851 All rights reserved. | 435 Hudson Street, New York, NY 10014 </mj-text>
+      </mj-column>
+     </mj-section>
+
+         <mj-section padding="0">
+      <mj-column padding="0">
+       <mj-text align="center">View on a web browser</mj-text>
+      </mj-column>
+     </mj-section>
+
+
+
+    </mj-wrapper>
+
+
+
+  </mj-body>
+</mjml>
