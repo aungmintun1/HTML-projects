@@ -55,10 +55,10 @@
     margin-top:2rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,5rem);
+    grid-template-rows: repeat(3,5rem);
     width:100%;
     gap:3rem;
-
+  
 }
 .skillsBox{
     width: 100%;
@@ -92,7 +92,20 @@
 .nodeIcon{
     width:5rem;
     height: 5rem;
-};
+}
+.figmaIcon{
+  width:4rem;
+  height:5rem;
+}
+
+.klaviyoIcon{
+  width:4rem;
+  height:3rem;
+}
+.mjmlIcon{
+  width:5.5rem;
+  height:5.5rem;
+}
 
 .container {
     max-width: 1536px;

@@ -1,13 +1,15 @@
 .portfolio-background{
     background-color: #e1e8fb;
+    padding:1rem;
 }
 .portfolio{
     padding:5rem;
     display: grid;
     grid-template-columns: repeat(2,35rem);
-    grid-template-rows: repeat(2,32rem);
+    grid-template-rows: repeat(3,32rem);
     place-content: center;
-    gap:3rem;
+    gap:5rem;
+  
 }
 
 .portfolio-box{
@@ -20,17 +22,39 @@
     transition: all 0.3s;
     gap:1rem;
 }
+
+
+
+.portfolio-special{
+    background-color: white;
+    border-radius: 16px;
+    width:65%;
+    height:24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    transition: all 0.3s;
+    gap:1rem;
+    margin:1rem auto;
+}
+
 .portfolio-link{
   text-decoration: none;
   color:black;
 }
 .portfolio-picture{
-    height:25rem;
+    height:22rem;
     border-radius: 16px;
     transition: all 0.3s;
 }
 
-.portfolio-box:hover{
+.portfolio-banner{
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.portfolio-box:hover, .portfolio-special:hover{
     transform: scale(1.05);
 }
 .portfolio-box:hover .portfolio-picture{
@@ -72,6 +96,9 @@
     .container {
       max-width: 768px;
     }
+    .portfolio-special{
+      width:85%;
+    }
   }
   
   /* md */
@@ -98,6 +125,14 @@
         width:20rem;
         height:20rem;
         padding:.75rem;
+    }
+    .portfolio-special{
+      width:100%;
+      height:12rem;
+    }
+    .portfolio-banner{
+      width: 100%;
+      transition: all 0.3s;
     }
     .portfolio-box h2{
         font-size:1rem;

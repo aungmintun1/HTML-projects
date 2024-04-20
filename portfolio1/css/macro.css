@@ -1,0 +1,145 @@
+*,
+ *::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+line-height: calc(1em+0.5rem)
+}
+
+img{
+max-width: 100%;
+display:block;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+font-family: 'Inter', sans-serif;
+background-color: var(--blue);
+}
+
+input, button, textarea, select{
+border: none;
+background: none;
+cursor: pointer;
+font-family: inherit;
+}
+:root {
+  --blue: #c7d2f0;; /* Define primary color */
+  --orange: #ff5c33; /* Define secondary color */
+}
+
+/* base css */
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.macro-section{
+ margin-top: 5rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:6rem;
+}
+
+.macro-section h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+.video{
+    width: 700px;
+    height: 400px;
+}
+.portfolio-button{
+    background-color: white;
+    padding: 1rem 2rem;
+    color:black;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+.portfolio-button:hover{
+    background-color: black;
+    color:white;
+}
+
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+     
+    }
+   
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  
+
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+    .macro-section h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .macro-section{
+        gap:3rem;
+        margin-bottom: 2rem;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+    .video{
+        width:90%;
+    }
+
+  
+  }
+  
+  
