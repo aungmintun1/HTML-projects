@@ -1,0 +1,174 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Can't find Lavva? We'll come to you.</mj-preview>
+    <mj-attributes>
+      <mj-class name="dark-green" background-color="#006853"></mj-class>
+      <mj-class name="light-green" background-color="#E2FEEF"></mj-class>
+      <mj-class name="cream" background-color="#F7F2ED"></mj-class>
+      <mj-class name="h-1" font-size="28px" line-height="33px" font-weight="bold"></mj-class>
+      <mj-class name="h-2" font-size="24px" line-height="29px" font-weight="bold"></mj-class>
+      <mj-class name="h-3" font-size="18px" line-height="21px" font-weight="bold"></mj-class>
+      <mj-class name="p-1" font-size="16px" line-height="19px"></mj-class>
+      <mj-class name="p-2" font-size="14px" line-height="19px"></mj-class>
+      <mj-text font-family="Helvetica, Arial" color="#006853" padding="0px"></mj-text>
+      <mj-button background-color="#006853" color="#FFFFFF" font-size="12px" line-height="15px" font-weight="bold" border-radius="45px" inner-padding="18px" padding="0px"></mj-button>
+      <mj-image padding="0px"></mj-image>
+      <mj-divider border-color="#006853" border-width="1px" padding="30px 18px 30px 18px"></mj-divider>
+      <mj-section padding="0px" background-color="#E2FEEF"></mj-section>
+    </mj-attributes>
+    <mj-style>@media (max-width:480px) {
+      .recipe-padding table tbody tr td {
+      padding-left: 0px !important;
+      }
+      .recipe-heading div {
+      padding-top:20px !important;
+      }
+      }</mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-raw>
+      <!-- Hero Image -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image href="https://google.com" src="https://klaver.design/lavva/hero.png" alt="Lavva"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Message Section -->
+    </mj-raw>
+    <mj-section padding="0px 18px 0px 18px">
+      <mj-column>
+        <mj-text mj-class="h-1" align="center">Can't find Lavva? We'll come to you.</mj-text>
+        <mj-text mj-class="p-1" align="center" padding-top="12px" padding-bottom="20px">We love making Lavva part of our everyday — and hope you do too. If you're only eating your Lavva with a spoon, we think you're missing out (although that's great too). Scroll for some of our very favorite recipes — enjoy!</mj-text>
+        <mj-image href="https://google.com" src="https://klaver.design/lavva/message.png" alt="Box full of Lavva"></mj-image>
+        <mj-text mj-class="h-2" align="center" padding-top="20px" padding-bottom="20px"><span style="font-weight:400;">Just for today, use code</span> TAKEMEHOME <br />
+          <span style="font-weight:400;">at checkout for</span> free shipping.
+        </mj-text>
+        <mj-button href="https://google.com">SHOP NOW</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- divider -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-divider></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- recipe granola -->
+    </mj-raw>
+    <mj-section padding-bottom="35px" padding-left="18px" padding-right="18px">
+      <mj-column>
+        <mj-text mj-class="h-2" align="center">Looking for more ways to love Lavva? ❤️</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 18px 0px 18px">
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="img/download.jpg" alt="Bowl full of granola and lavva" /></a></mj-raw>
+      </mj-column>
+      <mj-column padding-left="20px" css-class="recipe-padding">
+        <mj-text mj-class="h-2" css-class="recipe-heading">Date Granola</mj-text>
+        <mj-text mj-class="p-2" padding-top="12px" padding-bottom="12px">Antioxidant-rich dates add natural sweetness to this simple granola recipe.</mj-text>
+        <mj-button href="https://google.com" align="left">SEE RECIPE</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- divider -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-divider></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 18px 0px 18px" direction="rtl">
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="img/download.jpg" alt="tzatzki with veggies" /></a></mj-raw>
+      </mj-column>
+      <mj-column padding-right="20px" css-class="recipe-padding">
+        <mj-text mj-class="h-2" css-class="recipe-heading">Lavva Tzatziki</mj-text>
+        <mj-text mj-class="p-2" padding-top="12px" padding-bottom="12px">Enjoy as a dip with crudités, as a salad dressing, and with falafels. Also great on roasted veggies or as a sauce for grain bowls – enjoy this Lavva Tzatziki with just about anything.</mj-text>
+        <mj-button href="https://google.com" align="left">SEE RECIPE</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- divider -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-divider></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 18px 30px 18px">
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/lemon.png" alt="Lemon Poppyseed + 
+Blueberry Nice Cream 
+Sandwiches" /></a></mj-raw>
+      </mj-column>
+      <mj-column padding-left="20px" css-class="recipe-padding">
+        <mj-text mj-class="h-2" css-class="recipe-heading">Lemon Poppyseed +
+          Blueberry Nice Cream
+          Sandwiches</mj-text>
+        <mj-text mj-class="p-2" padding-top="12px" padding-bottom="12px">With zero added sugar, these treats can be eaten for breakfast, lunch or dinner - or anytime in between.</mj-text>
+        <mj-button href="https://google.com" align="left">SEE RECIPE</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- waves image -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image href="https://google.com" src="https://klaver.design/lavva/wave.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- All flavours section -->
+    </mj-raw>
+    <mj-section mj-class="cream" padding-top="8px" padding-bottom="30px">
+      <mj-column>
+        <mj-text mj-class="h-3" align="center">ORDER LAVVA ONLINE</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="cream" padding="0px 18px 18px 18px">
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img href="https://google.com" width="100%" src="https://klaver.design/lavva/strawberry.png" alt="Strawberry flavour" /></a></mj-raw>
+        <mj-button width="100px">SHOP</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/original.png" alt="Original flavour" /></a></mj-raw>
+        <mj-button width="100px">SHOP</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/vanilla.png" alt="Vanilla flavour" /></a></mj-raw>
+        <mj-button href="https://google.com" width="100px">SHOP</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="cream" padding="0px 18px 30px 18px">
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/blueberry.png" alt="Blueberry flavour" /></a></mj-raw>
+        <mj-button href="https://google.com" width="100px">SHOP</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/raspberry.png" alt="Raspberry flavour" /></a></mj-raw>
+        <mj-button href="https://google.com" width="100px">SHOP</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-raw><a href="https://google.com"><img width="100%" src="https://klaver.design/lavva/mango.png" alt="Mango flavour" /></a></mj-raw>
+        <mj-button href="https://google.com" width="100px">SHOP</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-section mj-class="dark-green">
+      <mj-column padding-top="30px" padding-bottom="30px">
+        <mj-image href="https://google.com" width="75px" src="https://klaver.design/lavva/logo.png" alt="Logo"></mj-image>
+        <mj-text align="center" padding-top="30px" padding-bottom="30px"><a href="https://google.com"><img width="45px" src="https://klaver.design/lavva/facebook.png" />
+            <a href="https://google.com"><img width="45px" src="https://klaver.design/lavva/instagram.png" /></a></mj-text>
+        <mj-text color="#FFFFFF" font-size="10px" align="center" padding-bottom="5px">No longer want to receive these emails? Unsubscribe.</mj-text>
+        <mj-text color="#FFFFFF" font-size="10px" align="center">Lavva 174 Bogart Street Brooklyn, NY 11206</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
