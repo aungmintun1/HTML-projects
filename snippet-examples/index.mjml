@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      body{
+        background-color:white;
+      }
+      .logo img{
+        width:150px !important;
+      }
+  
+    </mj-style>
+    <mj-style inline='inline'>
+     .link{
+        color:red;
+     }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+   <mj-section padding="0">
+    <mj-column>
+     <mj-text padding="10px 0 10px 0"> Changing Lives With Your Help </mj-text>
+     <mj-image css-class="logo" padding="0" src='img/helpCo.png'/>
+    </mj-column>
+
+    <mj-column padding="11px">
+     <mj-button background-color="red" border-radius="3px" padding="15px 30px" font-weight="bold">
+      DONATE NOW
+     </mj-button>
+    
+    </mj-column>
+
+   </mj-section>
+
+   <mj-section padding="0">
+    <mj-column padding="0">
+     <mj-image padding="0" src='img/HeroImage1.jpg'/>
+    </mj-column>
+   </mj-section>
+
+    <mj-section padding="0">
+     <mj-column padding="0">
+      <mj-text align="center" font-size="28px" padding-top="30px"> HelpCo is changing lives with your help </mj-text>
+      <mj-text align="center" line-height="1.5">Volunteer doctors run a vital mobile clinic, offering crucial care amid limited access to medical services, worsened by damage to the local clinic. Notes how the healthcare shortage worsens existing conditions that could have been managed with regular treatment. </mj-text>
+     <mj-button background-color="red" border-radius="3px" padding="15px 30px" font-weight="bold">
+      LEARN MORE
+     </mj-button>
+     </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0">
+    
+     <mj-column padding="0" width="30%">
+      <mj-image padding="0" height="190px" src='img/MedicalVolunteer.jpg'/>
+     </mj-column>
+
+     <mj-column padding="0" width="70%">
+      <mj-text font-size="13px" color="red" font-weight="bold" padding="0 20px"> NEWS </mj-text>
+       <mj-text font-size="14px" font-weight="bold" padding="16px 20px"> Volunteer doctors offer vital medical care </mj-text>
+      <mj-text font-size="14px" padding="0 0 16px 20px"  line-height="1.2"> HealthCo. acknowledges it's not the sole solution but an integral part of it. By coordinating with various relief organizations, it ensures swift and efficient aid for disaster victims. Memorandums of understanding are established in advance with partner organizations, ensuring rapid access to relief and recovery assistance when disasters occur. </mj-text>
+
+      <mj-text font-size="14px" padding="0px 0 0 20px"> 
+      <mj-raw>
+       <a href='#' class="link">CONTINUE READING </a>
+      </mj-raw>
+       </mj-text>
+     </mj-column>
+    </mj-section>
+
+    <mj-section padding="35px 0">
+    
+     <mj-column padding="0" width="30%">
+      <mj-image padding="0" height="190px" src='img/volunteer-2.jpg'/>
+     </mj-column>
+
+     <mj-column padding="0" width="70%">
+      <mj-text font-size="13px" color="red" font-weight="bold" padding="0 20px"> NEWS </mj-text>
+       <mj-text font-size="14px" font-weight="bold" padding="16px 20px"> Volunteer doctors offer vital medical care </mj-text>
+      <mj-text font-size="14px" padding="0 0 16px 20px"  line-height="1.2"> HealthCo. acknowledges it's not the sole solution but an integral part of it. By coordinating with various relief organizations, it ensures swift and efficient aid for disaster victims. Memorandums of understanding are established in advance with partner organizations, ensuring rapid access to relief and recovery assistance when disasters occur. </mj-text>
+
+      <mj-text font-size="14px" padding="0px 0 0 20px"> 
+      <mj-raw>
+       <a href='#' class="link">CONTINUE READING </a>
+      </mj-raw>
+       </mj-text>
+     </mj-column>
+    </mj-section>
+
+    <mj-section padding="30px 0" background-color="lightgray">
+
+     <mj-column padding="0 15px 0 0">
+      <mj-image padding="0" src='img/gaming-headset-.jpg'/>
+      <mj-text padding="10px 0" font-size="14px"> $39.99 USD </mj-text>
+      <mj-text padding="5px 0" font-size="16px" font-weight="bold"> Pro Gaming Headset </mj-text>
+      <mj-text padding="10px 0" font-size="16px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus. </mj-text>
+      <mj-text padding="5px 0 0 0" font-size="16px" ><mj-raw><a href="#">BUY NOW</a> </mj-raw></mj-text>
+     </mj-column>
+
+      <mj-column padding="0 0 0 15px ">
+      <mj-image padding="0" src='img/headset2.jpg'/>
+      <mj-text padding="10px 0" font-size="14px"> $39.99 USD </mj-text>
+      <mj-text padding="5px 0" font-size="16px" font-weight="bold"> Pro Gaming Headset </mj-text>
+      <mj-text padding="10px 0" font-size="16px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus. </mj-text>
+      <mj-text padding="5px 0 0 0" font-size="16px" ><mj-raw><a href="#">BUY NOW</a> </mj-raw></mj-text>
+     </mj-column>
+
+    
+
+   
+    
+
+  
+
+  </mj-body>
+</mjml>

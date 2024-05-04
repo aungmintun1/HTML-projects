@@ -1,0 +1,16 @@
+
+
+.hoverBtn{
+    padding: 1rem;
+    background-color: green;
+    color: white;
+    transition: background-color 0.4s;
+}
+
+.hoverBtn:hover{
+    background-color: white;
+    transform: translateY(-30px);
+}
+
+/* hover is the class where the changes are done, in this case background color and translate */
+/* the transition property is what allows a smoother animation, otherwise it will immediately change into the hover class */

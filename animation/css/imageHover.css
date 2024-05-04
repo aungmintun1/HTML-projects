@@ -1,0 +1,11 @@
+.image{
+    width: 600px;
+    height: 600px;
+    background-image:url("../img/greenShirt.webp");
+    background-size: contain;
+    transition: all 0.6s;
+}
+
+.image:hover{
+    background-image:url("../img/RPS.webp");
+}
