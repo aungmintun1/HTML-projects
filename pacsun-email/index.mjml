@@ -13,12 +13,12 @@
     <mj-style inline='inline'>
     
       .button-container {
-        background-image: url('http://127.0.0.1:5500/pacsun-email/img/purple.png');
+        background-image: url('./img/purple.png');
         background-size: contain;
       }
 
       .button-container2 {
-        background-image: url('http://127.0.0.1:5500/pacsun-email/img/yellow.png');
+        background-image: url('./img/yellow.png');
         background-size: cover;
       }
 
@@ -53,7 +53,7 @@
 
       <mj-section padding="0" >
        <mj-column padding="0">
-         <mj-image padding="0" css-class="section2" src='http://127.0.0.1:5500/pacsun-email/img/sec2.png'/>
+         <mj-image padding="0" css-class="section2" src='./img/sec2.png'/>
        </mj-column>
       </mj-section>
 
@@ -78,15 +78,15 @@
       <mj-section background-color="white" padding="0 0 25px 0">
        <mj-group>
         <mj-column >
-          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl1.png'>
+          <mj-image  width="190px" align="left" padding="0" src='./img/pac-girl1.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl2.png'>
+          <mj-image  width="190px" padding="0" src='./img/pac-girl2.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-girl3.png'>
+          <mj-image width="190px" align="right" padding="0" src='./img/pac-girl3.png'>
         </mj-column>
        </mj-group>
       </mj-section>
@@ -95,22 +95,22 @@
        <mj-group>
    
         <mj-column>
-          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants1.png'>
+          <mj-image  width="190px" align="left" padding="0" src='./img/pac-pants1.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants2.png'>
+          <mj-image  width="190px" padding="0" src='./img/pac-pants2.png'>
         </mj-column>
 
         <mj-column>
-          <mj-image  width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/pac-pants3.png'>
+          <mj-image  width="190px" align="right" padding="0" src='./img/pac-pants3.png'>
         </mj-column>
        </mj-group>
       </mj-section>
 
       <mj-section padding="0" >
        <mj-column padding="0">
-         <mj-image padding="0" css-class="section4" src='http://127.0.0.1:5500/pacsun-email/img/sec4.png'/>
+         <mj-image padding="0" css-class="section4" src='./img/sec4.png'/>
        </mj-column>
       </mj-section>
 
@@ -136,15 +136,15 @@
        <mj-group>
        
         <mj-column padding="0">
-          <mj-image width="190px" align="left"  padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-1.jpg'>
+          <mj-image width="190px" align="left"  padding="0" src='./img/model-1.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-2.jpg'>
+          <mj-image width="190px" padding="0" src='./img/model-2.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image  width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-3.jpg'>
+          <mj-image  width="190px" align="right" padding="0" src='./img/model-3.jpg'>
         </mj-column>
        </mj-group>
       </mj-section>
@@ -153,15 +153,15 @@
        <mj-group>
        
         <mj-column padding="0">
-          <mj-image  width="190px" align="left" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-4.jpg'>
+          <mj-image  width="190px" align="left" padding="0" src='./img/model-4.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image  width="190px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-5.jpg'>
+          <mj-image  width="190px" padding="0" src='./img/model-5.jpg'>
         </mj-column>
 
         <mj-column>
-          <mj-image width="190px" align="right" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/model-6.jpg'>
+          <mj-image width="190px" align="right" padding="0" src='./img/model-6.jpg'>
         </mj-column>
 
          </mj-group>
@@ -199,21 +199,21 @@
 
       <mj-section padding="0">
         <mj-column padding="0">
-          <mj-image href="https://www.pacsun.com/contact-us?cid=email-us" padding="0" src="http://127.0.0.1:5500/pacsun-email/img/textFriend.png"></mj-image>
+          <mj-image href="https://www.pacsun.com/contact-us?cid=email-us" padding="0" src="./img/textFriend.png"></mj-image>
         </mj-column>
       </mj-section>
 
       <mj-wrapper padding="0">
         <mj-section background-color="white" padding="0">
           <mj-column padding="20px 0" vertical-align="bottom" css-class="grayborder-right" border-bottom="solid lightgray 2px">
-            <mj-image width="50px" src='http://127.0.0.1:5500/pacsun-email/img/reward.png' />
+            <mj-image width="50px" src='./img/reward.png' />
             <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> PacSun Rewards </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> $5 Reward just for signing up! </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/pacsun-rewards.html" class="black">Learn More</a></mj-text>
           </mj-column>
 
           <mj-column padding="20px 0" vertical-align="bottom" border-bottom="solid lightgray 2px">
-            <mj-image width="50px" src='http://127.0.0.1:5500/pacsun-email/img/friend.png' />
+            <mj-image width="50px" src='./img/friend.png' />
             <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Refer a Friend </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> Give 20% off to get 20% off* </mj-text>
          <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/refer-a-friend" class="black">Learn More</a></mj-text>
@@ -222,14 +222,14 @@
 
         <mj-section background-color="white" padding="0">
           <mj-column padding="20px 0" vertical-align="bottom" css-class="grayborder-right" border-bottom="solid lightgray 2px">
-            <mj-image width="30px" src='http://127.0.0.1:5500/pacsun-email/img/phone.png' />
+            <mj-image width="30px" src='./img/phone.png' />
             <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Buy Online, Pick Up In-Store </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> 10% off your order* </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.pacsun.com/pacsun/in-store-pick-up.html" class="black">Learn More</a></mj-text>
           </mj-column>
 
           <mj-column padding="20px 0" vertical-align="bottom" border-bottom="solid lightgray 2px">
-            <mj-image width="50px" src='http://127.0.0.1:5500/pacsun-email/img/pac.png' />
+            <mj-image width="50px" src='./img/pac.png' />
             <mj-text font-family="sans-serif" font-size="18px" align="center" padding="3px 0"> Send a Gift Card </mj-text>
             <mj-text font-family="sans-serif" align="center" padding="3px 0"> You pick the card. They pick the gift </mj-text>
            <mj-text font-family="sans-serif" align="center" padding="3px 0"> <a href="https://www.buyatab.com/custom/pacsun/" class="black">Learn More</a></mj-text>
@@ -242,27 +242,27 @@
        <mj-group>
        
         <mj-column padding="0">
-          <mj-image width="125px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/afterpay.png' />
+          <mj-image width="125px" padding="0" src='./img/afterpay.png' />
         </mj-column>
 
         <mj-column padding="0">
-          <mj-image width="50px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/apple.png' />
+          <mj-image width="50px" padding="0" src='./img/apple.png' />
         </mj-column>
 
         <mj-column padding="0">
-          <mj-image width="125px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/cash.png' />
+          <mj-image width="125px" padding="0" src='./img/cash.png' />
         </mj-column>
 
         <mj-column padding="0">
-          <mj-image width="70px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/catch.png' />
+          <mj-image width="70px" padding="0" src='./img/catch.png' />
         </mj-column>
 
         <mj-column padding="0">
-          <mj-image width="100px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/paypal.png' />
+          <mj-image width="100px" padding="0" src='./img/paypal.png' />
         </mj-column>
 
         <mj-column padding="5px 0">
-          <mj-image align="center" width="70px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/venmo.png' />
+          <mj-image align="center" width="70px" padding="0" src='./img/venmo.png' />
         </mj-column>
 
        </mj-group>
@@ -287,16 +287,16 @@
       <mj-section background-color="white" padding="10px 0">
         <mj-group css-class="social-container">
           <mj-column padding="0">
-            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/instagram.png' />
+            <mj-image width="45px" padding="0" src='./img/instagram.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/twitter.png' />
+            <mj-image width="45px" padding="0" src='./img/twitter.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image width="45px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/snapchat.png' />
+            <mj-image width="45px" padding="0" src='./img/snapchat.png' />
           </mj-column>
           <mj-column padding="0">
-            <mj-image width="40px" padding="0" src='http://127.0.0.1:5500/pacsun-email/img/tiktok.png' />
+            <mj-image width="40px" padding="0" src='./img/tiktok.png' />
           </mj-column>
         </mj-group>
       </mj-section>
