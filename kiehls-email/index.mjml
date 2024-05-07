@@ -177,6 +177,8 @@
       
      </mj-section>
 
+ 
+
       <mj-section background-color="black" padding="10px 0 0 0">
         <mj-group css-class="social-container">
           <mj-column padding="0">
@@ -193,6 +195,17 @@
           </mj-column>
         </mj-group>
       </mj-section>
+
+        <mj-section background-color="black" padding="10px 0 0 0">
+        <mj-column padding="0">
+         <mj-text align="center"> 
+            <img width="55px" src="img/kiehl-fb.png" alt="">
+            <img width="55px" src="img/kiehl-ig.png" alt="">
+            <img width="55px" src="img/kiehl-tiktok.png" alt="">
+            <img width="55px" src="img/kiehl-twitter.png" alt="">
+          </mj-text>
+        </mj-column>
+       </mj-section>
 
      <mj-section padding="0">
       <mj-column padding="0">
