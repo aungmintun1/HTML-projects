@@ -1,0 +1,72 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline='inline'>
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F5F4F4">
+
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image padding="0" src="img/header.png" href="https://aungmintun.netlify.app/" />
+
+        <mj-divider padding="32px 0 32px 0" border-width="3px" border-style="solid" border-color="#198754" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 32px 0">
+      <mj-column padding="0">
+        <mj-text padding="0" font-size="18px" line-height="1.5" font-family="sans-serif">
+
+          Hi, Kelly <br><br>
+
+          I saw that DRUM was looking to hire a software engineer <br><br>
+
+          I love how you talk about the importance of talking about your proficiencies in interviews inside your about section. 
+          And I totally agree that networking and building strong relationships is key in a job market that's always changing.
+          I would like to learn more about the company and hopefully connect with you! Do you have a few minutes next week to discuss open roles?
+          <br><br>
+
+          Have a great rest of your week!
+          <br><br>
+
+          Thank You,<br>
+          Aung
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image padding="0" src="img/portfolio.png" href="https://aungmintun.netlify.app/" />
+      </mj-column>
+    </mj-section>
+
+ 
+
+    <mj-section padding="0" >
+     <mj-column padding="32px 0 0 0" background-color="#323131" >
+        <mj-button color="black"  align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="white"  href="https://aungmintun.netlify.app/">
+          Visit Portfolio
+        </mj-button>
+
+        <mj-button color="black" align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="white"  href="https://www.linkedin.com/in/aungmintun/">
+          LinkedIn
+        </mj-button>
+
+        <mj-button color="black" align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="white"  href="https://github.com/aungmintun1">
+          Github
+        </mj-button>
+       <mj-text color="white" align="center"> ©2024 Aung Min Tun Based in Queens, New York </mj-text>
+     </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>

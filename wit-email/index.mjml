@@ -1,0 +1,157 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline='inline'>
+      .social-container {
+        max-width: 400px;
+      }
+
+      .footer-link {
+        color: #606060;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-section padding="0" background-color="white">
+      <mj-column padding="0">
+        <mj-image padding="20px 0 0 0" width="400px" align="center" src='img/header1.png' />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="white">
+      <mj-column padding="0">
+        <mj-image padding="20px 20px 5px 20px" src='img/body1.png' />
+
+        <mj-text align="center" font-weight="bold" font-size="32px"> Thank you everyone who helped us at our Gala! </mj-text>
+        <mj-text font-size="16px"> Last Friday's Dream Big gala brought out the fantasies of everyone who attended. There were wildly imaginative costumes, awesome moves on the dance floor, and tons of laughter!
+          <mj-raw><br><br></mj-raw>
+          Thanks to the generosity of our community, the event grossed more than $34,000, with the silent auction breaking records in terms of revenue and the number of items up for bid.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="white">
+      <mj-column padding="0">
+        <mj-text align="left" font-weight="bold" font-size="24px"> Project Create Classes Start for Spring</mj-text>
+        <mj-text font-size="16px">
+          With support from the National Endowment for the Arts, WIT recently launched two Level 1 classes at Anacostia's
+          Project Create with 23 students.This is the third year of adult classes we've done at Project Create.
+        </mj-text>
+
+        <mj-text align="left" font-weight="bold" font-size="24px"> Musical Conservatory Students Graduate</mj-text>
+        <mj-text font-size="16px">
+          The first cohort of 35 improvisers some of whom are pictured here to graduate from WIT's Musical Improv Conservatory.
+          Now they will go on to conquer the world of musical improv and bring peace to the world.
+        </mj-text>
+
+        <mj-text align="left" font-weight="bold" font-size="24px"> More Ensemble Members Added to Our Ranks</mj-text>
+        <mj-text font-size="16px">
+          Our family of performers continues to grow! WIT added 21 new players to our Harold program. We've also added
+          members to Uncle Gorgeous and Hellcat, bringing our number of improvisers into the thousands.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 25px 0" background-color="white">
+      <mj-column padding="0">
+        <mj-image padding="20px 20px 5px 20px" src='img/body3.png' />
+        <mj-text align="center" font-weight="bold" font-size="32px" padding="20px 0 0 0">Coming Up at WIT</mj-text>
+        <mj-text align="center" font-size="20px" font-weight="300"> Key dates to remember... </mj-text>
+
+
+        <mj-text padding="0">
+          <ul style="list-style-type: none;">
+            <li style="font-size: 16px; line-height: 1.5;">
+              <span style="font-size: 24px; color: black; vertical-align: middle;">•</span> Thursday, May 23: Simplifying Game with <a href="#">Jordana Mishory</a>
+            </li>
+            <li style="font-size: 16px; line-height: 1.5;">
+              <span style="font-size: 24px; color: black; vertical-align: middle;">•</span> Saturday, June 1: Accents and Other Funny Voices with <a href="#">Luke Hennig</a>
+            </li>
+            <li style="font-size: 16px; line-height: 1.5;">
+              <span style="font-size: 24px; color: black; vertical-align: middle;">•</span> Wednesday, MAY 8: WIT@WORK IS OFFERING A FREE ONLINE SAMPLER!
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-button align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="#BAC833">
+          Sign Up For A Class
+        </mj-button>
+
+        <mj-button align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="#E6414B">
+          See A Show
+        </mj-button>
+
+        <mj-button align="center" border-radius="10px" width="75%" font-size="28px" font-weight="bold" background-color="#11A79B">
+          Donate
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#464646">
+      <mj-column padding="0">
+        <mj-image padding="20px 0 10px 0" width="190px" src='img/footer-icon.png' />
+        <mj-text color="white" align="center" font-size="12px"> Washington Improv Theater's
+          programming is supported by the DC Commission on the Arts and Humanities, The Morris
+          and Gwendolyn Cafritz Foundation, the National Endowment for the Arts, DC Mayor Muriel
+          Bowser's Office of LGBTQ Affairs, and improv lovers like you. </mj-text>
+
+        <mj-divider border-width="1px" padding="20px 0 40px 0" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 20px 0" background-color="#464646">
+      <mj-group css-class="social-container">
+        <mj-column padding="0">
+          <mj-text align="center" color="white">
+            <img width="24px" src="http://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png" alt="Facebook" style="vertical-align:middle;" />
+            <span style="vertical-align:middle;"> Facebook</span>
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text align="center" color="white">
+            <img width="24px" src="http://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-48.png" alt="Twitter" style="vertical-align:middle;" />
+            <span style="vertical-align:middle;"> Twitter</span>
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text align="center" color="white">
+            <img width="24px" src="http://cdn-images.mailchimp.com/icons/social-block-v2/gray-youtube-48.png" alt="YouTube" style="vertical-align:middle;" />
+            <span style="vertical-align:middle;"> YouTube</span>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+
+    </mj-section>
+
+    <mj-section padding="0 0 20px 0" background-color="#464646">
+      <mj-column padding="0">
+        <mj-text color="white" align="center" font-size="12px" font-style="italic"> Copyright © 2024 Washington Improv Theater, All rights reserved.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 20px 0" background-color="#464646">
+      <mj-group>
+        <mj-column padding="0">
+          <mj-text align="right" font-size="12px" >
+            <a href="#" class="footer-link" >unsubscribe from this list </a>
+
+          </mj-text>
+
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text align="left"  font-size="12px"> <a href="#" class="footer-link">update subscription preferences </a> </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+
+  </mj-body>
+</mjml>
